@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.herve.intergiciel.PatientManager.PatientManagerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.150 s -- in com.herve.intergiciel.PatientManager.PatientManagerApplicationTests

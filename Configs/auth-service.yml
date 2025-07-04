@@ -1,0 +1,37 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: auth-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/auth  # Port MySQL standard est 3306 (pas 5432)
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver  # Driver MySQL au lieu de MariaDB
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 5
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect  # Dialecte MySQL au lieu de PostgreSQL
+        format_sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    healthcheck:
+      enabled: true
+    fetch-registry: true
+    register-with-eureka: true
+
+security:
+  jwt:
+    secret-key: b0b0f08db683aff4af2e942f90f2c1fbd844481a6e79cd98a06717b4af3b4f01
+    expiration-time: 86400000 # 24 heures en millisecondes

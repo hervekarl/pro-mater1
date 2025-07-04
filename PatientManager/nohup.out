@@ -1,0 +1,141 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.herve.intergiciel:PatientManager >----------------
+[INFO] Building PatientManager 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ PatientManager ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ PatientManager ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 9 source files with javac [debug parameters release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Controllers/InfoPatientController.java:[105,35] cannot find symbol
+  symbol:   method getIdPat()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[47,44] cannot find symbol
+  symbol:   method getName()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[48,46] cannot find symbol
+  symbol:   method getPrenom()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[49,43] cannot find symbol
+  symbol:   method getTel()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[50,45] cannot find symbol
+  symbol:   method getDateN()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[51,45] cannot find symbol
+  symbol:   method getEmail()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[52,53] cannot find symbol
+  symbol:   method getGroupeSanguin()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[53,44] cannot find symbol
+  symbol:   method getSexe()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[54,44] cannot find symbol
+  symbol:   method getAddr()
+  location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[37,20] cannot find symbol
+  symbol:   method getImage()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[36,20] cannot find symbol
+  symbol:   method getGroupeSanguin()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[35,20] cannot find symbol
+  symbol:   method getDateN()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[34,20] cannot find symbol
+  symbol:   method getSexe()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[33,20] cannot find symbol
+  symbol:   method getAddr()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[32,20] cannot find symbol
+  symbol:   method getTel()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[31,20] cannot find symbol
+  symbol:   method getPrenom()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[30,20] cannot find symbol
+  symbol:   method getName()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[29,20] cannot find symbol
+  symbol:   method getIdPat()
+  location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[INFO] 18 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.137 s
+[INFO] Finished at: 2025-05-25T01:11:05+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project PatientManager: Compilation failure: Compilation failure: 
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Controllers/InfoPatientController.java:[105,35] cannot find symbol
+[ERROR]   symbol:   method getIdPat()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[47,44] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[48,46] cannot find symbol
+[ERROR]   symbol:   method getPrenom()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[49,43] cannot find symbol
+[ERROR]   symbol:   method getTel()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[50,45] cannot find symbol
+[ERROR]   symbol:   method getDateN()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[51,45] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[52,53] cannot find symbol
+[ERROR]   symbol:   method getGroupeSanguin()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[53,44] cannot find symbol
+[ERROR]   symbol:   method getSexe()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/Services/InfoPatientService.java:[54,44] cannot find symbol
+[ERROR]   symbol:   method getAddr()
+[ERROR]   location: variable infoPatient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[37,20] cannot find symbol
+[ERROR]   symbol:   method getImage()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[36,20] cannot find symbol
+[ERROR]   symbol:   method getGroupeSanguin()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[35,20] cannot find symbol
+[ERROR]   symbol:   method getDateN()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[34,20] cannot find symbol
+[ERROR]   symbol:   method getSexe()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[33,20] cannot find symbol
+[ERROR]   symbol:   method getAddr()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[32,20] cannot find symbol
+[ERROR]   symbol:   method getTel()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[31,20] cannot find symbol
+[ERROR]   symbol:   method getPrenom()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[30,20] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] /Users/apple/Documents/Projet_intergiciel/Pro_middleware/PatientManager/src/main/java/com/herve/intergiciel/PatientManager/DTO/DtoPatient.java:[29,20] cannot find symbol
+[ERROR]   symbol:   method getIdPat()
+[ERROR]   location: variable patient of type com.herve.intergiciel.PatientManager.Modeles.InfoPatient
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

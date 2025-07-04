@@ -1,0 +1,93 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.herve.intergiciel:myconfig >-------------------
+[INFO] Building myconfig 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ myconfig ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ myconfig ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ myconfig ---
+[INFO] skip non existing resourceDirectory /Users/apple/Documents/Projet_intergiciel/Pro_middleware/myconfig/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ myconfig ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ myconfig ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.herve.intergiciel.myconfig.MyconfigApplicationTests
+01:10:29.798 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.herve.intergiciel.myconfig.MyconfigApplicationTests]: MyconfigApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:10:29.951 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.herve.intergiciel.myconfig.MyconfigApplication for test class com.herve.intergiciel.myconfig.MyconfigApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-05-25T01:10:30.643+01:00  INFO 48580 --- [myconfig] [           main] c.h.i.myconfig.MyconfigApplicationTests  : Starting MyconfigApplicationTests using Java 23.0.1 with PID 48580 (started by apple in /Users/apple/Documents/Projet_intergiciel/Pro_middleware/myconfig)
+2025-05-25T01:10:30.644+01:00  INFO 48580 --- [myconfig] [           main] c.h.i.myconfig.MyconfigApplicationTests  : The following 1 profile is active: "native"
+2025-05-25T01:10:31.775+01:00  INFO 48580 --- [myconfig] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e090e5a3-c023-3c1e-a83e-964a3e19aba1
+2025-05-25T01:10:32.987+01:00  INFO 48580 --- [myconfig] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-05-25T01:10:33.165+01:00  WARN 48580 --- [myconfig] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-25T01:10:33.179+01:00  INFO 48580 --- [myconfig] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2025-05-25T01:10:33.239+01:00  INFO 48580 --- [myconfig] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-05-25T01:10:33.262+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-05-25T01:10:33.266+01:00  INFO 48580 --- [myconfig] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-25T01:10:33.273+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-05-25T01:10:33.273+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-05-25T01:10:33.273+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-05-25T01:10:33.274+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-05-25T01:10:33.274+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-05-25T01:10:33.274+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-05-25T01:10:33.274+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-05-25T01:10:33.642+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-05-25T01:10:33.644+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-05-25T01:10:33.646+01:00  INFO 48580 --- [myconfig] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-25T01:10:33.648+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1748131833647 with initial instances count: 4
+2025-05-25T01:10:33.652+01:00  INFO 48580 --- [myconfig] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MYCONFIG with eureka with status UP
+2025-05-25T01:10:33.652+01:00  INFO 48580 --- [myconfig] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1748131833652, current=UP, previous=STARTING]
+2025-05-25T01:10:33.654+01:00  INFO 48580 --- [myconfig] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYCONFIG/herve-mac-os:myconfig:8888: registering service...
+2025-05-25T01:10:33.682+01:00  INFO 48580 --- [myconfig] [           main] c.h.i.myconfig.MyconfigApplicationTests  : Started MyconfigApplicationTests in 3.377 seconds (process running for 4.686)
+2025-05-25T01:10:33.693+01:00  INFO 48580 --- [myconfig] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MYCONFIG/herve-mac-os:myconfig:8888 - registration status: 204
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (/Users/apple/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.942 s -- in com.herve.intergiciel.myconfig.MyconfigApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.2:jar (default-jar) @ myconfig ---
+[INFO] Building jar: /Users/apple/Documents/Projet_intergiciel/Pro_middleware/myconfig/target/myconfig-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.4.4:repackage (repackage) @ myconfig ---
+[INFO] Replacing main artifact /Users/apple/Documents/Projet_intergiciel/Pro_middleware/myconfig/target/myconfig-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /Users/apple/Documents/Projet_intergiciel/Pro_middleware/myconfig/target/myconfig-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ myconfig ---
+[INFO] Installing /Users/apple/Documents/Projet_intergiciel/Pro_middleware/myconfig/pom.xml to /Users/apple/.m2/repository/com/herve/intergiciel/myconfig/0.0.1-SNAPSHOT/myconfig-0.0.1-SNAPSHOT.pom
+[INFO] Installing /Users/apple/Documents/Projet_intergiciel/Pro_middleware/myconfig/target/myconfig-0.0.1-SNAPSHOT.jar to /Users/apple/.m2/repository/com/herve/intergiciel/myconfig/0.0.1-SNAPSHOT/myconfig-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.445 s
+[INFO] Finished at: 2025-05-25T01:10:38+01:00
+[INFO] ------------------------------------------------------------------------

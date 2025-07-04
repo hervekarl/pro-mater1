@@ -1,0 +1,53 @@
+name: CI/CD Microservices Java Maven
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: # permet de lancer manuellement depuis l'interface GitHub
+
+jobs:
+  build-test-deploy:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      # Build all microservices
+      - name: Build microservices
+        run: |
+          for dir in Authentification Configs dosmed myconfig myDiscorveryServer mygateway PatientManager PharmacyManager RHManager
+          do
+            echo " Building $dir..."
+            cd $dir
+            mvn clean package -DskipTests
+            cd ..
+          done
+
+      # Test all microservices
+      - name: Test microservices
+        run: |
+          for dir in Authentification Configs dosmed myconfig myDiscorveryServer mygateway PatientManager PharmacyManager RHManager
+          do
+            echo " Testing $dir..."
+            cd $dir
+            mvn test
+            cd ..
+          done
+
+      # Fake deployment - logs only
+      - name: Deploy (simulation)
+        run: |
+          echo "Simulated deployment..."
+          for dir in Authentification dosmed myconfig myDiscorveryServer mygateway PatientManager PharmacyManager RHManager
+          do
+            echo "Would deploy $dir/target/*.jar"
+          done

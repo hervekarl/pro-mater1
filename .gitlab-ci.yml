@@ -1,0 +1,143 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  MAVEN_CLI_OPTS: "-B -DskipTests"
+
+# === BUILD ===
+
+build_Authentification:
+  stage: build
+  script:
+    - echo "Building Authentification..."
+    - cd Authentification
+    - mvn $MAVEN_CLI_OPTS clean package
+
+build_dosmed:
+  stage: build
+  script:
+    - echo "Building Dosmed..."
+    - cd dosmed
+    - mvn $MAVEN_CLI_OPTS clean package
+
+build_myconfig:
+  stage: build
+  script:
+    - echo "Building MyConfig..."
+    - cd myconfig
+    - mvn $MAVEN_CLI_OPTS clean package
+
+build_myDiscoveryServer:
+  stage: build
+  script:
+    - echo "Building MyDiscoveryServer..."
+    - cd myDiscoveryServer
+    - mvn $MAVEN_CLI_OPTS clean package
+
+build_mygateway:
+  stage: build
+  script:
+    - echo "Building MyGateway..."
+    - cd mygateway
+    - mvn $MAVEN_CLI_OPTS clean package
+
+build_PatientManager:
+  stage: build
+  script:
+    - echo "Building PatientManager..."
+    - cd PatientManager
+    - mvn $MAVEN_CLI_OPTS clean package
+
+build_RHManager:
+  stage: build
+  script:
+    - echo "Building RHManager..."
+    - cd RHManager
+    - mvn $MAVEN_CLI_OPTS clean package
+
+build_PharmacyManager:
+  stage: build
+  script:
+    - echo "Building PharmacyManager..."
+    - cd PharmacyManager
+    - mvn $MAVEN_CLI_OPTS clean package
+
+# === TESTS ===
+
+test_Authentification:
+  stage: test
+  script:
+    - echo "Testing Authentification..."
+    - cd Authentification
+    - mvn test
+
+test_dosmed:
+  stage: test
+  script:
+    - echo "Testing Dosmed..."
+    - cd dosmed
+    - mvn test
+
+test_myconfig:
+  stage: test
+  script:
+    - echo "Testing MyConfig..."
+    - cd myconfig
+    - mvn test
+
+test_myDiscoveryServer:
+  stage: test
+  script:
+    - echo "Testing MyDiscoveryServer..."
+    - cd myDiscoveryServer
+    - mvn test
+
+test_mygateway:
+  stage: test
+  script:
+    - echo "Testing MyGateway..."
+    - cd mygateway
+    - mvn test
+
+test_PatientManager:
+  stage: test
+  script:
+    - echo "Testing PatientManager..."
+    - cd PatientManager
+    - mvn test
+
+test_RHManager:
+  stage: test
+  script:
+    - echo "Testing RHManager..."
+    - cd RHManager
+    - mvn test
+
+test_PharmacyManager:
+  stage: test
+  script:
+    - echo "Testing PharmacyManager..."
+    - cd PharmacyManager
+    - mvn test
+
+# === DEPLOYIEMENT===
+deploy_services:
+  stage: deploy
+  script:
+    - echo "Starting all services locally..."
+    - nohup java -jar Authentification/target/*.jar &
+    - nohup java -jar dosmed/target/*.jar &
+    - nohup java -jar myconfig/target/*.jar &
+    - nohup java -jar myDiscoveryServer/target/*.jar &
+    - nohup java -jar mygateway/target/*.jar &
+    - nohup java -jar PatientManager/target/*.jar &
+    - nohup java -jar RHManager/target/*.jar &
+    - nohup java -jar PharmacyManager/target/*.jar &
+    - echo "All services are running in the background."
+  tags:
+    - local
+  only:
+    - main
+  when: on_success  # <-- Lancement automatique si tout s’est bien passé
