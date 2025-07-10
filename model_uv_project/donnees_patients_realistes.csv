@@ -1,0 +1,1001 @@
+Age,Sexe,Symptomes,Fumeur,Tension (cmHg),Température (°C),Maladie
+31,Homme,"Nausée, Fatigue, Douleurs abdominales, Jaunisse",Oui,14.5,40.3,Hépatite
+27,Homme,"Fatigue, Vertiges",Non,11.1,37.8,Hypertension
+78,Homme,"Fatigue, Perte de poids, Toux",Non,12.3,36.7,Tuberculose
+57,Femme,"Fièvre, Fatigue, Toux",Oui,15.8,38.3,COVID-19
+78,Homme,"Fièvre, Fatigue, Perte de poids",Non,14.6,39.3,Tuberculose
+14,Femme,"Fatigue, Vertiges, Maux de tête",Non,15.4,36.7,Hypertension
+96,Femme,"Fatigue, Toux, Fièvre",Non,14.6,39.5,Tuberculose
+49,Homme,"Fatigue, Maux de tête, Vertiges",Non,10.7,39.4,Hypertension
+76,Femme,"Fièvre, Fatigue, Nausée",Oui,13.9,36.7,Paludisme
+23,Homme,"Frissons, Nausée, Fièvre",Non,13.4,36.5,Paludisme
+90,Homme,"Fièvre, Nausée, Frissons, Fatigue",Non,15.4,38.2,Paludisme
+68,Femme,"Toux, Fatigue, Fièvre, Maux de tête",Non,13.9,36.8,Grippe
+42,Homme,"Fièvre, Fatigue, Nausée, Frissons",Non,10.7,38.0,Paludisme
+62,Homme,"Fièvre, Fatigue",Oui,15.4,38.2,Paludisme
+7,Femme,"Fièvre, Toux, Douleurs musculaires",Oui,12.6,36.0,COVID-19
+36,Homme,"Fièvre, Fatigue",Non,14.5,36.4,Grippe
+89,Femme,"Nausée, Fièvre, Fatigue, Frissons",Non,10.4,36.2,Paludisme
+43,Homme,"Soif excessive, Mictions fréquentes, Fatigue",Non,15.9,37.6,Diabète
+100,Femme,"Fatigue, Maux de tête",Oui,13.7,40.2,Grippe
+52,Femme,"Toux, Douleurs musculaires, Fièvre, Fatigue",Non,12.0,36.5,COVID-19
+98,Homme,"Fatigue, Douleurs musculaires",Non,9.9,39.3,COVID-19
+30,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,10.5,36.0,Diabète
+92,Femme,"Fatigue, Fièvre, Perte de poids",Non,9.6,36.7,Tuberculose
+52,Femme,"Douleurs musculaires, Fatigue, Fièvre, Toux",Oui,10.2,37.9,COVID-19
+24,Homme,"Fatigue, Jaunisse, Nausée",Oui,14.1,38.3,Hépatite
+26,Homme,"Fièvre, Fatigue",Oui,14.9,40.1,Grippe
+52,Femme,"Fatigue, Toux",Oui,11.5,37.4,Tuberculose
+30,Homme,"Maux de tête, Fatigue, Toux",Non,12.8,37.2,Grippe
+23,Femme,"Fatigue, Maux de tête, Toux, Fièvre",Oui,13.6,40.1,Grippe
+43,Femme,"Fatigue, Jaunisse",Oui,11.8,40.3,Hépatite
+85,Homme,"Fatigue, Mictions fréquentes, Soif excessive",Oui,13.7,38.7,Diabète
+86,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,13.4,39.4,Diabète
+32,Femme,"Nausée, Jaunisse, Fatigue",Oui,13.2,38.0,Hépatite
+15,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,9.2,38.1,Diabète
+78,Femme,"Fatigue, Fièvre, Maux de tête",Non,9.5,37.7,Grippe
+92,Femme,"Fatigue, Frissons, Fièvre, Nausée",Oui,13.1,40.3,Paludisme
+53,Homme,"Vertiges, Maux de tête, Fatigue",Non,9.7,37.3,Hypertension
+30,Homme,"Maux de tête, Vertiges, Fatigue",Oui,12.7,38.0,Hypertension
+69,Homme,"Frissons, Fièvre, Nausée, Fatigue",Non,12.0,36.9,Paludisme
+58,Femme,"Fatigue, Vertiges, Maux de tête",Oui,9.5,38.5,Hypertension
+88,Homme,"Fièvre, Douleurs musculaires, Fatigue, Toux",Oui,15.2,37.0,COVID-19
+8,Homme,"Perte de poids, Fatigue, Toux, Fièvre",Non,15.2,37.1,Tuberculose
+17,Femme,"Toux, Fièvre, Fatigue, Perte de poids",Oui,9.3,39.3,Tuberculose
+1,Homme,"Nausée, Jaunisse",Non,9.0,39.3,Hépatite
+44,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,12.0,38.7,Diabète
+40,Homme,"Fatigue, Perte de poids, Fièvre",Oui,14.8,36.4,Tuberculose
+33,Homme,"Frissons, Fièvre",Non,15.4,40.5,Paludisme
+32,Femme,"Jaunisse, Nausée",Oui,11.9,38.8,Hépatite
+32,Homme,"Fièvre, Fatigue",Non,11.9,37.2,Tuberculose
+89,Homme,"Fatigue, Soif excessive",Non,15.2,38.0,Diabète
+88,Homme,"Maux de tête, Toux, Fièvre, Fatigue",Non,15.5,36.3,Grippe
+60,Femme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,13.0,36.2,Diabète
+85,Femme,"Toux, Fièvre",Non,15.8,39.5,Grippe
+85,Homme,"Fièvre, Toux",Oui,13.3,39.7,Tuberculose
+12,Femme,"Toux, Fièvre",Non,11.5,36.9,COVID-19
+96,Femme,"Jaunisse, Nausée, Douleurs abdominales",Oui,9.6,40.4,Hépatite
+20,Homme,"Douleurs musculaires, Toux, Fièvre, Fatigue",Oui,14.1,38.4,COVID-19
+7,Femme,"Fatigue, Maux de tête",Non,10.2,38.6,Hypertension
+94,Homme,"Maux de tête, Fatigue, Vertiges",Oui,14.3,38.8,Hypertension
+60,Femme,"Fatigue, Perte de poids",Oui,15.7,38.0,Tuberculose
+78,Homme,"Fièvre, Toux",Non,15.4,37.0,Tuberculose
+10,Femme,"Douleurs abdominales, Jaunisse",Non,11.1,39.5,Hépatite
+54,Femme,"Fatigue, Nausée",Oui,15.6,37.8,Hépatite
+83,Homme,"Fatigue, Vertiges, Maux de tête",Non,10.0,39.0,Hypertension
+21,Homme,"Douleurs musculaires, Fatigue, Toux",Oui,12.6,37.8,COVID-19
+24,Femme,"Nausée, Douleurs abdominales, Fatigue, Jaunisse",Non,10.6,40.4,Hépatite
+79,Homme,"Fatigue, Soif excessive",Non,10.5,37.9,Diabète
+81,Homme,"Nausée, Frissons",Non,12.7,37.6,Paludisme
+14,Femme,"Fièvre, Fatigue",Non,10.6,40.2,COVID-19
+32,Femme,"Toux, Fatigue",Non,15.1,38.1,Grippe
+78,Femme,"Toux, Douleurs musculaires",Oui,12.5,37.6,COVID-19
+36,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Non,12.8,36.0,Diabète
+97,Femme,"Vertiges, Maux de tête, Fatigue",Non,9.8,38.6,Hypertension
+83,Homme,"Vertiges, Maux de tête, Fatigue",Non,13.2,39.2,Hypertension
+89,Femme,"Soif excessive, Mictions fréquentes",Non,9.6,38.5,Diabète
+43,Homme,"Nausée, Frissons, Fatigue",Non,10.9,39.1,Paludisme
+25,Femme,"Mictions fréquentes, Soif excessive",Non,10.8,37.9,Diabète
+86,Homme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,11.0,39.4,Diabète
+27,Femme,"Soif excessive, Mictions fréquentes",Oui,13.3,37.5,Diabète
+58,Femme,"Fatigue, Douleurs abdominales",Non,15.8,40.5,Hépatite
+57,Homme,"Nausée, Jaunisse, Douleurs abdominales",Oui,14.1,38.7,Hépatite
+34,Femme,"Jaunisse, Nausée, Fatigue",Non,11.0,37.4,Hépatite
+61,Femme,"Douleurs musculaires, Fièvre, Fatigue",Non,11.2,36.6,COVID-19
+67,Femme,"Maux de tête, Fièvre, Fatigue, Toux",Oui,9.7,37.6,Grippe
+44,Homme,"Nausée, Fatigue",Non,10.6,37.2,Paludisme
+88,Femme,"Perte de poids, Fatigue, Fièvre, Toux",Oui,13.4,39.6,Tuberculose
+7,Femme,"Soif excessive, Fatigue",Oui,15.3,37.4,Diabète
+46,Femme,"Fatigue, Toux, Fièvre, Perte de poids",Oui,10.8,40.2,Tuberculose
+65,Homme,"Nausée, Fatigue, Frissons, Fièvre",Oui,13.0,39.6,Paludisme
+14,Homme,"Toux, Douleurs musculaires",Non,13.4,40.1,COVID-19
+7,Femme,"Fatigue, Frissons, Fièvre",Non,11.2,36.9,Paludisme
+86,Homme,"Jaunisse, Nausée",Non,9.3,39.1,Hépatite
+76,Homme,"Nausée, Jaunisse, Fatigue, Douleurs abdominales",Oui,14.0,40.1,Hépatite
+10,Homme,"Toux, Fatigue, Douleurs musculaires, Fièvre",Non,10.9,38.9,COVID-19
+26,Homme,"Fatigue, Nausée, Frissons",Non,14.8,39.1,Paludisme
+79,Femme,"Fatigue, Jaunisse",Oui,13.2,39.1,Hépatite
+69,Femme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,10.4,38.4,Diabète
+64,Homme,"Perte de poids, Fatigue, Toux, Fièvre",Non,9.1,37.5,Tuberculose
+89,Femme,"Fatigue, Vertiges, Maux de tête",Non,11.6,37.8,Hypertension
+96,Femme,"Toux, Fatigue, Douleurs musculaires",Oui,9.1,40.0,COVID-19
+8,Homme,"Perte de poids, Fatigue, Fièvre, Toux",Non,10.8,37.2,Tuberculose
+83,Femme,"Fatigue, Vertiges, Maux de tête",Oui,12.6,39.7,Hypertension
+34,Femme,"Toux, Douleurs musculaires, Fièvre, Fatigue",Non,12.3,36.1,COVID-19
+81,Femme,"Perte de poids, Fièvre, Toux, Fatigue",Oui,13.1,36.3,Tuberculose
+44,Femme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,14.9,39.4,Diabète
+98,Femme,"Fièvre, Nausée",Non,15.6,37.8,Paludisme
+72,Homme,"Fatigue, Fièvre, Perte de poids",Oui,12.4,36.7,Tuberculose
+98,Femme,"Nausée, Jaunisse, Douleurs abdominales, Fatigue",Non,10.0,39.3,Hépatite
+100,Homme,"Toux, Fatigue",Oui,10.4,38.4,COVID-19
+64,Homme,"Douleurs abdominales, Fatigue, Jaunisse",Non,13.4,38.6,Hépatite
+40,Femme,"Fatigue, Nausée, Frissons, Fièvre",Oui,13.4,39.5,Paludisme
+82,Femme,"Maux de tête, Vertiges",Non,13.4,39.1,Hypertension
+12,Femme,"Fatigue, Maux de tête",Non,10.0,37.9,Hypertension
+84,Homme,"Fatigue, Fièvre, Frissons",Oui,14.0,39.9,Paludisme
+5,Femme,"Fièvre, Fatigue, Toux, Maux de tête",Non,10.2,36.6,Grippe
+91,Homme,"Toux, Perte de poids",Non,14.4,38.0,Tuberculose
+99,Homme,"Toux, Fièvre, Fatigue, Maux de tête",Non,14.9,37.9,Grippe
+77,Femme,"Nausée, Frissons, Fièvre, Fatigue",Oui,9.1,36.1,Paludisme
+27,Homme,"Fièvre, Toux, Fatigue",Oui,13.5,38.1,Grippe
+41,Homme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,10.4,38.1,Diabète
+33,Homme,"Fatigue, Jaunisse",Non,14.3,38.6,Hépatite
+53,Femme,"Fatigue, Toux, Maux de tête, Fièvre",Oui,9.9,39.1,Grippe
+90,Femme,"Jaunisse, Nausée",Non,14.6,37.2,Hépatite
+44,Femme,"Douleurs abdominales, Fatigue",Non,12.7,37.9,Hépatite
+67,Femme,"Nausée, Fièvre",Oui,12.2,37.9,Paludisme
+62,Femme,"Fatigue, Fièvre, Toux",Oui,14.0,40.3,Grippe
+38,Femme,"Vertiges, Maux de tête, Fatigue",Oui,13.7,40.0,Hypertension
+23,Homme,"Douleurs musculaires, Fièvre, Fatigue",Oui,15.0,37.0,COVID-19
+30,Femme,"Toux, Maux de tête, Fièvre",Non,14.6,36.6,Grippe
+69,Femme,"Mictions fréquentes, Soif excessive",Non,14.0,39.7,Diabète
+48,Femme,"Fatigue, Nausée",Non,10.5,40.2,Paludisme
+67,Femme,"Maux de tête, Toux",Oui,12.9,39.1,Grippe
+7,Femme,"Fièvre, Toux, Fatigue",Non,12.4,39.2,Grippe
+68,Homme,"Perte de poids, Toux, Fièvre, Fatigue",Non,12.7,38.8,Tuberculose
+89,Femme,"Vertiges, Maux de tête",Non,10.2,39.7,Hypertension
+16,Femme,"Fatigue, Nausée, Jaunisse",Oui,11.2,36.2,Hépatite
+17,Femme,"Fatigue, Maux de tête",Oui,14.1,39.0,Hypertension
+49,Femme,"Fièvre, Frissons, Nausée",Non,14.7,39.1,Paludisme
+50,Homme,"Nausée, Jaunisse, Fatigue",Oui,15.5,36.3,Hépatite
+20,Femme,"Douleurs musculaires, Fatigue, Toux, Fièvre",Non,12.2,39.2,COVID-19
+96,Homme,"Fatigue, Douleurs musculaires",Non,9.5,36.7,COVID-19
+6,Homme,"Maux de tête, Fatigue",Oui,15.0,38.5,Hypertension
+15,Femme,"Douleurs abdominales, Fatigue, Nausée, Jaunisse",Non,13.8,38.8,Hépatite
+41,Homme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,12.9,39.1,Diabète
+14,Femme,"Vertiges, Fatigue",Oui,12.7,37.9,Hypertension
+22,Femme,"Fatigue, Toux, Fièvre",Non,15.3,39.6,Tuberculose
+62,Femme,"Perte de poids, Fatigue",Non,14.7,39.2,Tuberculose
+67,Homme,"Maux de tête, Fatigue, Fièvre",Oui,12.0,36.4,Grippe
+37,Homme,"Fatigue, Toux, Maux de tête, Fièvre",Non,13.0,36.7,Grippe
+52,Homme,"Fatigue, Fièvre, Toux, Perte de poids",Non,12.8,40.1,Tuberculose
+71,Femme,"Fatigue, Vertiges",Oui,14.6,38.2,Hypertension
+24,Femme,"Vertiges, Fatigue",Oui,13.8,37.0,Hypertension
+34,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Non,16.0,38.1,Diabète
+5,Femme,"Vertiges, Fatigue, Maux de tête",Non,15.3,40.3,Hypertension
+27,Homme,"Vertiges, Maux de tête",Oui,13.8,40.2,Hypertension
+64,Femme,"Toux, Douleurs musculaires, Fièvre",Non,10.1,37.6,COVID-19
+59,Homme,"Frissons, Fièvre",Oui,14.5,37.5,Paludisme
+75,Homme,"Toux, Fièvre",Non,13.9,38.6,Grippe
+42,Homme,"Frissons, Fatigue, Nausée, Fièvre",Non,12.9,39.0,Paludisme
+52,Homme,"Fatigue, Perte de poids, Fièvre, Toux",Non,12.3,39.9,Tuberculose
+70,Homme,"Fièvre, Fatigue, Maux de tête, Toux",Oui,14.1,39.2,Grippe
+4,Femme,"Fatigue, Toux, Douleurs musculaires",Non,14.9,39.8,COVID-19
+4,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Non,9.9,38.0,Diabète
+95,Homme,"Fièvre, Nausée, Frissons, Fatigue",Oui,14.7,40.5,Paludisme
+11,Homme,"Fatigue, Perte de poids, Fièvre",Oui,15.8,37.2,Tuberculose
+14,Homme,"Fatigue, Jaunisse",Non,11.8,40.4,Hépatite
+7,Femme,"Fatigue, Fièvre, Frissons, Nausée",Oui,14.2,40.3,Paludisme
+2,Homme,"Fatigue, Toux",Non,9.5,37.2,COVID-19
+98,Femme,"Fièvre, Perte de poids, Fatigue",Non,14.5,38.8,Tuberculose
+45,Femme,"Vertiges, Maux de tête, Fatigue",Oui,15.2,36.2,Hypertension
+84,Femme,"Maux de tête, Fatigue",Oui,14.8,40.2,Hypertension
+1,Femme,"Fièvre, Frissons",Non,12.7,39.8,Paludisme
+87,Femme,"Vertiges, Fatigue, Maux de tête",Oui,9.5,38.0,Hypertension
+92,Homme,"Jaunisse, Nausée",Non,14.3,37.7,Hépatite
+17,Femme,"Jaunisse, Nausée, Douleurs abdominales, Fatigue",Non,12.7,37.6,Hépatite
+3,Homme,"Maux de tête, Vertiges, Fatigue",Non,12.5,38.4,Hypertension
+40,Femme,"Perte de poids, Fièvre, Toux",Oui,11.2,38.1,Tuberculose
+80,Homme,"Jaunisse, Douleurs abdominales, Nausée",Oui,12.1,36.7,Hépatite
+33,Homme,"Fatigue, Vertiges, Maux de tête",Oui,9.9,37.6,Hypertension
+17,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,9.8,36.2,Diabète
+37,Femme,"Maux de tête, Toux, Fatigue, Fièvre",Oui,15.2,38.8,Grippe
+37,Homme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,10.2,40.1,Diabète
+34,Homme,"Fatigue, Toux",Oui,9.0,40.1,COVID-19
+19,Femme,"Mictions fréquentes, Soif excessive, Fatigue",Non,12.2,40.1,Diabète
+4,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Non,10.1,39.0,Diabète
+3,Homme,"Maux de tête, Fièvre",Oui,10.9,37.4,Grippe
+63,Femme,"Douleurs musculaires, Toux, Fièvre, Fatigue",Non,15.5,39.7,COVID-19
+58,Homme,"Maux de tête, Fièvre, Fatigue, Toux",Non,9.7,38.3,Grippe
+4,Homme,"Vertiges, Maux de tête, Fatigue",Non,9.9,37.8,Hypertension
+13,Homme,"Perte de poids, Fatigue, Toux, Fièvre",Non,14.7,36.7,Tuberculose
+68,Homme,"Douleurs abdominales, Nausée",Oui,9.8,38.7,Hépatite
+45,Homme,"Perte de poids, Toux, Fièvre",Non,12.2,37.4,Tuberculose
+30,Femme,"Toux, Fatigue, Fièvre, Maux de tête",Non,9.6,38.1,Grippe
+94,Homme,"Douleurs musculaires, Fatigue",Non,16.0,39.9,COVID-19
+18,Femme,"Toux, Fièvre, Fatigue, Perte de poids",Non,11.6,39.5,Tuberculose
+68,Femme,"Fatigue, Fièvre",Non,10.0,37.2,COVID-19
+19,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,10.4,39.3,Diabète
+99,Femme,"Fatigue, Toux",Oui,11.5,38.7,Tuberculose
+29,Femme,"Fièvre, Fatigue, Perte de poids",Non,12.6,37.9,Tuberculose
+12,Homme,"Fatigue, Mictions fréquentes, Soif excessive",Oui,15.0,36.4,Diabète
+51,Homme,"Nausée, Fatigue, Frissons",Non,11.7,40.3,Paludisme
+22,Homme,"Fatigue, Vertiges, Maux de tête",Oui,14.1,36.8,Hypertension
+44,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Non,15.5,37.4,Diabète
+55,Homme,"Fièvre, Toux",Non,15.5,37.8,Tuberculose
+63,Femme,"Fièvre, Nausée, Fatigue",Non,11.0,37.9,Paludisme
+50,Femme,"Jaunisse, Fatigue, Nausée",Oui,11.1,36.8,Hépatite
+25,Homme,"Fatigue, Vertiges, Maux de tête",Oui,12.7,36.3,Hypertension
+5,Femme,"Soif excessive, Fatigue",Oui,14.6,37.2,Diabète
+29,Femme,"Fatigue, Douleurs musculaires, Fièvre",Oui,10.5,38.9,COVID-19
+25,Femme,"Toux, Douleurs musculaires, Fièvre, Fatigue",Non,11.9,40.4,COVID-19
+40,Femme,"Nausée, Jaunisse, Douleurs abdominales",Oui,15.9,36.2,Hépatite
+15,Homme,"Fatigue, Vertiges, Maux de tête",Non,13.7,39.4,Hypertension
+37,Homme,"Fièvre, Douleurs musculaires, Fatigue, Toux",Oui,12.0,38.1,COVID-19
+19,Femme,"Fièvre, Douleurs musculaires",Non,11.3,39.8,COVID-19
+10,Homme,"Fièvre, Fatigue, Toux",Non,10.7,37.9,COVID-19
+17,Homme,"Maux de tête, Fatigue, Vertiges",Non,13.7,37.2,Hypertension
+89,Homme,"Fatigue, Toux, Fièvre, Maux de tête",Non,13.4,39.5,Grippe
+19,Femme,"Perte de poids, Toux, Fatigue",Non,9.8,37.9,Tuberculose
+87,Homme,"Perte de poids, Fatigue, Fièvre",Oui,10.5,36.6,Tuberculose
+18,Femme,"Fièvre, Perte de poids, Toux",Non,16.0,37.2,Tuberculose
+83,Homme,"Fatigue, Fièvre, Maux de tête",Non,9.1,40.3,Grippe
+4,Femme,"Fièvre, Perte de poids",Oui,11.6,39.3,Tuberculose
+38,Homme,"Nausée, Frissons, Fatigue, Fièvre",Oui,15.2,40.4,Paludisme
+20,Homme,"Douleurs abdominales, Nausée",Non,11.4,38.7,Hépatite
+99,Homme,"Toux, Fièvre, Douleurs musculaires, Fatigue",Non,10.4,36.4,COVID-19
+33,Femme,"Perte de poids, Fatigue, Toux",Oui,14.7,39.2,Tuberculose
+91,Homme,"Douleurs abdominales, Nausée, Fatigue",Oui,12.0,39.4,Hépatite
+84,Homme,"Fatigue, Maux de tête, Vertiges",Non,9.5,38.4,Hypertension
+79,Homme,"Fatigue, Maux de tête",Non,11.2,37.0,Hypertension
+26,Homme,"Douleurs abdominales, Nausée, Jaunisse, Fatigue",Non,15.3,36.6,Hépatite
+45,Homme,"Maux de tête, Fatigue",Oui,9.2,40.1,Hypertension
+22,Femme,"Fièvre, Fatigue",Non,11.3,37.0,Grippe
+40,Homme,"Fièvre, Toux, Douleurs musculaires",Non,15.8,36.3,COVID-19
+72,Femme,"Toux, Fatigue, Fièvre",Oui,12.3,38.4,Grippe
+28,Femme,"Fatigue, Nausée, Frissons",Non,9.6,37.8,Paludisme
+45,Femme,"Maux de tête, Fièvre, Fatigue, Toux",Non,9.4,38.9,Grippe
+79,Homme,"Fatigue, Nausée",Non,15.7,39.6,Paludisme
+42,Homme,"Douleurs musculaires, Fatigue, Toux",Oui,13.0,37.8,COVID-19
+49,Femme,"Toux, Fatigue, Perte de poids",Oui,14.7,40.5,Tuberculose
+23,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Non,15.5,37.6,Diabète
+46,Homme,"Fatigue, Soif excessive",Oui,9.6,37.7,Diabète
+5,Homme,"Maux de tête, Fatigue, Vertiges",Oui,10.7,37.0,Hypertension
+70,Femme,"Fièvre, Fatigue, Perte de poids, Toux",Oui,14.9,39.2,Tuberculose
+81,Femme,"Fatigue, Douleurs musculaires, Fièvre, Toux",Non,13.9,36.3,COVID-19
+76,Homme,"Douleurs abdominales, Nausée",Non,11.8,36.4,Hépatite
+31,Homme,"Toux, Fièvre",Non,10.8,40.1,COVID-19
+53,Homme,"Fièvre, Toux",Oui,13.6,38.7,COVID-19
+59,Femme,"Fièvre, Fatigue, Nausée, Frissons",Non,12.7,37.1,Paludisme
+94,Homme,"Fatigue, Maux de tête, Vertiges",Non,13.5,40.0,Hypertension
+30,Femme,"Fièvre, Nausée",Oui,15.1,38.9,Paludisme
+87,Homme,"Nausée, Douleurs abdominales, Fatigue, Jaunisse",Non,9.7,36.2,Hépatite
+82,Homme,"Maux de tête, Fièvre",Non,15.1,37.5,Grippe
+1,Femme,"Jaunisse, Nausée, Douleurs abdominales, Fatigue",Non,12.2,38.1,Hépatite
+77,Homme,"Fièvre, Nausée",Oui,10.1,38.7,Paludisme
+32,Homme,"Fatigue, Toux, Douleurs musculaires, Fièvre",Non,9.2,38.3,COVID-19
+18,Femme,"Maux de tête, Fatigue",Non,13.6,39.1,Grippe
+28,Femme,"Maux de tête, Fatigue",Non,14.8,37.4,Grippe
+46,Homme,"Nausée, Douleurs abdominales",Non,12.1,36.5,Hépatite
+29,Femme,"Toux, Fièvre, Perte de poids",Oui,15.9,40.0,Tuberculose
+65,Femme,"Fièvre, Nausée, Frissons, Fatigue",Oui,9.8,36.0,Paludisme
+69,Homme,"Fièvre, Toux",Oui,9.9,36.6,Tuberculose
+44,Homme,"Fatigue, Fièvre, Toux",Oui,15.4,39.8,Grippe
+90,Femme,"Jaunisse, Fatigue",Oui,13.0,37.3,Hépatite
+30,Femme,"Toux, Fatigue, Fièvre, Douleurs musculaires",Oui,14.0,38.7,COVID-19
+87,Homme,"Jaunisse, Fatigue, Douleurs abdominales",Oui,15.5,40.3,Hépatite
+23,Homme,"Fatigue, Vertiges",Oui,11.2,36.7,Hypertension
+62,Femme,"Fièvre, Douleurs musculaires",Non,16.0,39.2,COVID-19
+29,Femme,"Maux de tête, Fatigue, Fièvre, Toux",Oui,11.0,37.1,Grippe
+89,Femme,"Toux, Fièvre",Oui,12.1,36.2,Tuberculose
+12,Femme,"Maux de tête, Fièvre, Toux",Non,13.6,38.1,Grippe
+46,Femme,"Fatigue, Douleurs abdominales",Non,11.5,36.8,Hépatite
+69,Homme,"Fatigue, Maux de tête",Non,11.2,36.7,Hypertension
+34,Femme,"Toux, Fièvre",Oui,11.2,38.7,Tuberculose
+18,Homme,"Fatigue, Mictions fréquentes",Oui,13.7,39.7,Diabète
+70,Femme,"Nausée, Fatigue, Frissons, Fièvre",Oui,10.0,36.4,Paludisme
+75,Homme,"Douleurs abdominales, Fatigue",Non,11.3,37.9,Hépatite
+100,Femme,"Nausée, Fatigue, Jaunisse",Oui,9.9,36.9,Hépatite
+22,Femme,"Perte de poids, Toux",Non,13.5,38.1,Tuberculose
+18,Homme,"Fatigue, Vertiges",Oui,12.5,37.2,Hypertension
+23,Homme,"Fatigue, Mictions fréquentes, Soif excessive",Non,10.7,40.0,Diabète
+67,Femme,"Maux de tête, Fatigue, Toux, Fièvre",Non,12.4,40.3,Grippe
+91,Homme,"Fièvre, Fatigue",Non,9.4,37.6,Grippe
+76,Femme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,9.8,36.6,Diabète
+54,Femme,"Vertiges, Maux de tête, Fatigue",Oui,15.2,39.3,Hypertension
+20,Homme,"Fièvre, Maux de tête, Fatigue, Toux",Non,13.8,39.2,Grippe
+5,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,9.7,37.1,Diabète
+50,Femme,"Vertiges, Fatigue, Maux de tête",Non,14.8,37.0,Hypertension
+20,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,9.9,36.2,Diabète
+97,Femme,"Soif excessive, Fatigue",Oui,14.6,37.8,Diabète
+87,Homme,"Vertiges, Maux de tête, Fatigue",Oui,11.3,38.8,Hypertension
+59,Femme,"Maux de tête, Toux, Fièvre, Fatigue",Non,11.2,37.0,Grippe
+17,Femme,"Fièvre, Toux",Oui,9.7,37.4,Tuberculose
+9,Homme,"Fatigue, Douleurs abdominales, Jaunisse, Nausée",Oui,9.3,38.3,Hépatite
+50,Homme,"Douleurs abdominales, Fatigue, Jaunisse, Nausée",Oui,15.5,38.8,Hépatite
+33,Femme,"Fièvre, Toux, Douleurs musculaires, Fatigue",Non,11.1,37.9,COVID-19
+95,Femme,"Fièvre, Nausée, Frissons, Fatigue",Oui,9.8,40.2,Paludisme
+93,Homme,"Jaunisse, Fatigue, Douleurs abdominales",Non,11.9,36.4,Hépatite
+94,Homme,"Jaunisse, Douleurs abdominales, Nausée, Fatigue",Non,13.8,39.2,Hépatite
+58,Homme,"Fatigue, Frissons",Non,13.6,38.1,Paludisme
+7,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Non,15.9,38.7,Diabète
+1,Homme,"Maux de tête, Fatigue, Vertiges",Non,12.5,37.4,Hypertension
+93,Femme,"Fatigue, Douleurs abdominales",Oui,14.7,37.6,Hépatite
+80,Femme,"Nausée, Douleurs abdominales, Fatigue, Jaunisse",Non,10.1,38.6,Hépatite
+28,Femme,"Fièvre, Fatigue, Maux de tête, Toux",Non,15.9,36.5,Grippe
+41,Femme,"Fièvre, Toux, Maux de tête",Non,11.7,39.3,Grippe
+6,Femme,"Maux de tête, Fatigue, Fièvre, Toux",Non,9.5,36.7,Grippe
+48,Homme,"Toux, Fatigue",Oui,11.3,36.2,COVID-19
+18,Femme,"Fatigue, Toux",Oui,11.2,37.4,Grippe
+81,Femme,"Frissons, Nausée, Fatigue",Oui,9.5,38.7,Paludisme
+73,Femme,"Mictions fréquentes, Soif excessive",Oui,9.8,36.5,Diabète
+9,Femme,"Fatigue, Jaunisse, Nausée",Oui,15.0,36.8,Hépatite
+38,Homme,"Fatigue, Nausée, Fièvre, Frissons",Non,12.3,39.0,Paludisme
+56,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Non,10.5,36.0,Diabète
+39,Homme,"Maux de tête, Vertiges",Oui,13.9,40.4,Hypertension
+9,Homme,"Vertiges, Maux de tête, Fatigue",Non,9.3,40.0,Hypertension
+42,Femme,"Fatigue, Fièvre, Toux, Douleurs musculaires",Oui,13.8,40.1,COVID-19
+16,Femme,"Maux de tête, Fièvre, Toux",Non,12.3,39.4,Grippe
+79,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,16.0,38.9,Diabète
+31,Homme,"Fatigue, Douleurs musculaires",Non,12.4,38.3,COVID-19
+17,Homme,"Fièvre, Fatigue",Non,12.1,37.5,Tuberculose
+17,Homme,"Fièvre, Nausée, Fatigue",Non,10.6,37.9,Paludisme
+30,Homme,"Fièvre, Toux",Non,12.1,36.0,Tuberculose
+59,Femme,"Fatigue, Perte de poids, Toux, Fièvre",Non,12.5,36.8,Tuberculose
+56,Homme,"Fatigue, Maux de tête, Vertiges",Non,14.5,38.3,Hypertension
+33,Femme,"Fièvre, Nausée, Fatigue",Non,9.9,39.6,Paludisme
+15,Femme,"Toux, Fatigue, Maux de tête, Fièvre",Oui,9.6,38.9,Grippe
+29,Homme,"Fièvre, Toux, Perte de poids",Oui,13.8,36.8,Tuberculose
+85,Femme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,10.7,36.8,Diabète
+21,Homme,"Fièvre, Frissons, Nausée, Fatigue",Oui,13.7,37.1,Paludisme
+16,Femme,"Fatigue, Toux",Oui,9.5,40.2,Tuberculose
+32,Homme,"Fièvre, Toux, Fatigue",Oui,15.9,38.6,Grippe
+39,Homme,"Fatigue, Fièvre, Douleurs musculaires, Toux",Non,14.9,36.8,COVID-19
+42,Homme,"Jaunisse, Nausée, Douleurs abdominales, Fatigue",Oui,11.4,38.6,Hépatite
+79,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Non,9.9,37.2,Diabète
+31,Homme,"Jaunisse, Nausée, Douleurs abdominales, Fatigue",Oui,10.7,38.1,Hépatite
+6,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,14.4,38.5,Diabète
+79,Homme,"Frissons, Fatigue",Non,13.4,36.6,Paludisme
+29,Femme,"Maux de tête, Fièvre",Non,10.1,36.7,Grippe
+49,Homme,"Fatigue, Mictions fréquentes, Soif excessive",Non,15.1,39.0,Diabète
+84,Homme,"Fatigue, Jaunisse, Nausée, Douleurs abdominales",Oui,15.2,40.2,Hépatite
+63,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Non,12.3,37.5,Diabète
+85,Homme,"Maux de tête, Vertiges",Non,10.5,36.5,Hypertension
+49,Femme,"Fatigue, Soif excessive",Non,14.4,39.4,Diabète
+53,Homme,"Fatigue, Maux de tête, Vertiges",Oui,12.2,37.6,Hypertension
+4,Homme,"Fatigue, Jaunisse, Douleurs abdominales, Nausée",Oui,13.4,39.8,Hépatite
+27,Homme,"Jaunisse, Nausée",Non,13.3,37.9,Hépatite
+35,Homme,"Toux, Fièvre",Oui,12.7,40.0,Tuberculose
+45,Femme,"Nausée, Fatigue, Jaunisse, Douleurs abdominales",Non,11.2,36.9,Hépatite
+39,Homme,"Nausée, Fièvre, Frissons, Fatigue",Oui,14.9,40.2,Paludisme
+18,Femme,"Vertiges, Fatigue, Maux de tête",Oui,14.4,37.8,Hypertension
+19,Femme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,11.1,39.5,Diabète
+14,Homme,"Maux de tête, Vertiges, Fatigue",Oui,9.2,39.5,Hypertension
+98,Homme,"Fatigue, Douleurs musculaires, Fièvre, Toux",Oui,9.9,40.4,COVID-19
+47,Homme,"Fatigue, Soif excessive",Oui,15.7,40.0,Diabète
+91,Femme,"Fatigue, Douleurs abdominales",Oui,12.5,39.1,Hépatite
+69,Femme,"Fatigue, Vertiges, Maux de tête",Non,15.5,38.3,Hypertension
+55,Femme,"Nausée, Fièvre",Non,13.3,39.5,Paludisme
+29,Homme,"Fatigue, Maux de tête",Oui,14.3,36.3,Hypertension
+32,Homme,"Soif excessive, Fatigue",Non,10.9,39.5,Diabète
+88,Femme,"Maux de tête, Fièvre, Fatigue",Oui,13.6,39.1,Grippe
+51,Femme,"Nausée, Frissons, Fatigue, Fièvre",Non,11.3,39.2,Paludisme
+60,Femme,"Frissons, Fatigue, Nausée",Non,10.6,39.9,Paludisme
+93,Homme,"Maux de tête, Vertiges, Fatigue",Non,10.4,36.0,Hypertension
+24,Homme,"Jaunisse, Douleurs abdominales",Oui,10.0,37.1,Hépatite
+70,Femme,"Fatigue, Maux de tête",Oui,13.1,39.7,Hypertension
+95,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Non,12.6,36.6,Diabète
+67,Femme,"Nausée, Frissons, Fatigue, Fièvre",Oui,15.5,39.8,Paludisme
+82,Femme,"Fièvre, Fatigue, Toux",Non,10.8,38.7,Tuberculose
+91,Homme,"Maux de tête, Toux, Fièvre",Non,13.7,40.5,Grippe
+51,Homme,"Toux, Fièvre, Maux de tête",Oui,13.5,36.8,Grippe
+41,Femme,"Maux de tête, Fièvre",Non,15.3,38.1,Grippe
+88,Homme,"Soif excessive, Mictions fréquentes, Fatigue",Non,10.8,37.9,Diabète
+25,Homme,"Fatigue, Nausée, Jaunisse, Douleurs abdominales",Oui,13.8,36.0,Hépatite
+41,Homme,"Jaunisse, Fatigue",Oui,14.5,40.5,Hépatite
+26,Femme,"Fatigue, Vertiges, Maux de tête",Non,11.6,39.5,Hypertension
+9,Homme,"Vertiges, Fatigue, Maux de tête",Oui,14.0,38.2,Hypertension
+17,Homme,"Fièvre, Perte de poids, Toux, Fatigue",Oui,12.0,40.5,Tuberculose
+40,Homme,"Fatigue, Fièvre, Maux de tête, Toux",Oui,15.2,39.9,Grippe
+38,Homme,"Perte de poids, Fièvre",Oui,14.1,36.1,Tuberculose
+99,Homme,"Douleurs musculaires, Fatigue",Non,15.0,38.8,COVID-19
+33,Homme,"Fatigue, Fièvre, Toux",Non,15.6,36.8,COVID-19
+90,Femme,"Perte de poids, Toux, Fatigue",Oui,11.8,40.2,Tuberculose
+71,Homme,"Nausée, Frissons, Fièvre",Oui,12.5,39.9,Paludisme
+12,Homme,"Fatigue, Mictions fréquentes, Soif excessive",Oui,10.8,39.8,Diabète
+63,Femme,"Nausée, Frissons, Fièvre, Fatigue",Oui,12.4,38.7,Paludisme
+58,Homme,"Vertiges, Maux de tête, Fatigue",Non,14.2,38.3,Hypertension
+38,Femme,"Maux de tête, Fatigue",Oui,14.1,37.5,Hypertension
+45,Femme,"Nausée, Douleurs abdominales, Jaunisse, Fatigue",Oui,14.2,37.8,Hépatite
+80,Homme,"Fatigue, Douleurs musculaires, Toux",Non,9.7,39.6,COVID-19
+66,Femme,"Fatigue, Toux, Douleurs musculaires",Oui,15.1,39.3,COVID-19
+87,Femme,"Fièvre, Fatigue, Toux, Maux de tête",Oui,9.6,36.7,Grippe
+72,Femme,"Perte de poids, Toux, Fièvre",Oui,14.7,40.1,Tuberculose
+71,Femme,"Fatigue, Maux de tête, Vertiges",Non,13.9,40.4,Hypertension
+45,Femme,"Toux, Fièvre",Non,12.3,39.5,COVID-19
+85,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Non,12.7,38.9,Diabète
+38,Homme,"Mictions fréquentes, Fatigue",Oui,11.9,38.8,Diabète
+80,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Non,11.9,40.0,Diabète
+77,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,9.0,37.4,Diabète
+87,Homme,"Nausée, Fièvre",Non,14.0,36.8,Paludisme
+66,Homme,"Vertiges, Fatigue, Maux de tête",Non,9.8,38.8,Hypertension
+25,Homme,"Mictions fréquentes, Fatigue",Non,11.0,39.4,Diabète
+83,Homme,"Perte de poids, Fatigue, Toux",Oui,9.0,37.6,Tuberculose
+50,Homme,"Vertiges, Fatigue",Non,14.1,37.3,Hypertension
+72,Homme,"Toux, Fatigue",Oui,13.8,37.9,COVID-19
+82,Homme,"Toux, Fièvre, Fatigue",Non,14.3,37.3,Tuberculose
+15,Femme,"Douleurs abdominales, Nausée",Non,14.7,38.2,Hépatite
+28,Homme,"Toux, Fièvre",Non,10.1,39.4,Grippe
+11,Femme,"Soif excessive, Fatigue",Oui,9.0,39.4,Diabète
+21,Homme,"Soif excessive, Mictions fréquentes, Fatigue",Non,15.8,38.3,Diabète
+70,Femme,"Mictions fréquentes, Soif excessive",Non,14.8,38.2,Diabète
+46,Femme,"Frissons, Nausée, Fièvre, Fatigue",Oui,10.0,38.7,Paludisme
+42,Femme,"Perte de poids, Toux, Fièvre",Oui,15.0,36.3,Tuberculose
+67,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Non,11.6,36.4,Diabète
+96,Homme,"Fatigue, Fièvre",Oui,10.7,40.5,COVID-19
+27,Femme,"Soif excessive, Fatigue",Non,16.0,38.8,Diabète
+87,Femme,"Nausée, Fatigue, Jaunisse",Non,9.3,39.7,Hépatite
+17,Femme,"Perte de poids, Fatigue, Fièvre, Toux",Oui,15.0,37.7,Tuberculose
+36,Femme,"Toux, Maux de tête",Non,13.8,38.5,Grippe
+42,Homme,"Fièvre, Frissons",Oui,12.5,40.0,Paludisme
+67,Femme,"Toux, Fièvre, Fatigue",Non,10.4,39.9,Tuberculose
+19,Homme,"Toux, Fièvre, Douleurs musculaires",Non,9.1,37.0,COVID-19
+39,Femme,"Douleurs musculaires, Fièvre, Fatigue, Toux",Oui,16.0,36.4,COVID-19
+23,Homme,"Soif excessive, Mictions fréquentes",Non,13.8,36.1,Diabète
+8,Homme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,15.9,40.2,Diabète
+89,Femme,"Mictions fréquentes, Soif excessive",Oui,14.7,39.0,Diabète
+14,Homme,"Perte de poids, Toux, Fièvre, Fatigue",Non,13.0,36.3,Tuberculose
+90,Femme,"Jaunisse, Fatigue, Douleurs abdominales",Non,11.7,36.1,Hépatite
+37,Femme,"Fatigue, Nausée",Non,12.0,36.9,Hépatite
+1,Homme,"Fatigue, Fièvre, Toux",Non,12.0,36.0,Grippe
+3,Femme,"Toux, Fatigue, Fièvre, Perte de poids",Non,15.7,37.0,Tuberculose
+22,Homme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,10.3,39.9,Diabète
+55,Femme,"Nausée, Fièvre, Frissons, Fatigue",Non,10.0,39.9,Paludisme
+94,Femme,"Douleurs musculaires, Toux",Non,11.6,37.8,COVID-19
+34,Homme,"Fatigue, Toux",Oui,10.3,38.6,COVID-19
+45,Femme,"Fatigue, Douleurs musculaires",Non,12.1,39.5,COVID-19
+69,Homme,"Fatigue, Vertiges, Maux de tête",Non,15.5,37.0,Hypertension
+76,Femme,"Douleurs musculaires, Toux, Fatigue",Oui,13.5,38.4,COVID-19
+19,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Non,15.9,38.8,Diabète
+6,Homme,"Vertiges, Fatigue",Oui,11.5,36.7,Hypertension
+79,Femme,"Fièvre, Fatigue, Toux",Oui,10.7,36.8,COVID-19
+12,Homme,"Frissons, Fièvre",Oui,12.4,37.7,Paludisme
+35,Femme,"Fièvre, Maux de tête, Fatigue",Oui,14.0,36.9,Grippe
+55,Femme,"Fatigue, Maux de tête",Oui,15.9,37.4,Hypertension
+55,Femme,"Vertiges, Maux de tête, Fatigue",Oui,11.2,39.7,Hypertension
+8,Femme,"Fatigue, Fièvre",Non,14.9,38.6,Tuberculose
+32,Femme,"Fatigue, Toux",Non,14.4,36.3,Grippe
+57,Homme,"Fatigue, Maux de tête, Fièvre",Non,11.8,40.0,Grippe
+64,Femme,"Nausée, Jaunisse",Oui,11.5,37.7,Hépatite
+90,Femme,"Maux de tête, Fatigue",Oui,15.5,39.7,Hypertension
+76,Homme,"Fatigue, Toux, Fièvre, Perte de poids",Oui,9.3,39.3,Tuberculose
+30,Femme,"Fatigue, Nausée",Non,9.8,40.0,Hépatite
+52,Homme,"Douleurs musculaires, Fatigue, Toux, Fièvre",Oui,12.9,36.1,COVID-19
+99,Homme,"Fièvre, Maux de tête, Fatigue, Toux",Non,12.1,39.8,Grippe
+74,Femme,"Maux de tête, Vertiges",Oui,9.5,39.3,Hypertension
+27,Femme,"Fatigue, Mictions fréquentes",Oui,9.2,40.0,Diabète
+95,Femme,"Fatigue, Mictions fréquentes",Oui,10.1,39.8,Diabète
+22,Femme,"Fatigue, Nausée, Douleurs abdominales, Jaunisse",Oui,12.2,37.8,Hépatite
+43,Femme,"Fièvre, Perte de poids, Fatigue, Toux",Non,9.3,40.0,Tuberculose
+24,Homme,"Fatigue, Douleurs abdominales, Jaunisse, Nausée",Oui,10.6,36.7,Hépatite
+21,Homme,"Fièvre, Toux",Non,9.1,38.5,Tuberculose
+15,Homme,"Mictions fréquentes, Fatigue",Oui,14.7,39.9,Diabète
+2,Homme,"Jaunisse, Fatigue, Nausée, Douleurs abdominales",Non,14.0,37.7,Hépatite
+34,Femme,"Toux, Douleurs musculaires, Fièvre, Fatigue",Non,14.9,37.1,COVID-19
+55,Femme,"Perte de poids, Toux, Fièvre",Non,15.3,39.9,Tuberculose
+97,Homme,"Douleurs musculaires, Toux",Non,14.8,37.2,COVID-19
+67,Femme,"Fatigue, Vertiges, Maux de tête",Non,13.1,39.7,Hypertension
+6,Femme,"Frissons, Fatigue, Fièvre, Nausée",Oui,13.8,38.1,Paludisme
+17,Femme,"Douleurs musculaires, Fièvre",Non,14.0,40.5,COVID-19
+38,Femme,"Toux, Fatigue, Maux de tête",Oui,9.4,36.5,Grippe
+50,Homme,"Douleurs musculaires, Fatigue",Oui,11.0,37.5,COVID-19
+28,Homme,"Jaunisse, Fatigue, Douleurs abdominales",Non,14.3,37.4,Hépatite
+86,Homme,"Toux, Perte de poids",Oui,9.1,38.5,Tuberculose
+79,Homme,"Jaunisse, Douleurs abdominales, Fatigue, Nausée",Non,9.5,39.0,Hépatite
+10,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Non,10.0,37.0,Diabète
+82,Femme,"Vertiges, Fatigue, Maux de tête",Non,11.7,39.9,Hypertension
+34,Femme,"Toux, Fatigue, Fièvre",Non,15.6,38.1,COVID-19
+21,Femme,"Fatigue, Nausée, Douleurs abdominales, Jaunisse",Non,15.7,39.3,Hépatite
+23,Femme,"Nausée, Frissons",Non,10.3,37.9,Paludisme
+19,Femme,"Maux de tête, Vertiges, Fatigue",Non,9.1,37.7,Hypertension
+83,Femme,"Fatigue, Douleurs musculaires, Toux",Oui,12.1,36.2,COVID-19
+97,Homme,"Toux, Fièvre",Oui,15.6,37.5,COVID-19
+18,Femme,"Fièvre, Frissons",Non,10.4,38.7,Paludisme
+82,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,12.4,38.5,Diabète
+49,Homme,"Frissons, Fatigue",Non,13.0,37.9,Paludisme
+29,Femme,"Fatigue, Perte de poids, Toux, Fièvre",Non,9.1,39.1,Tuberculose
+71,Femme,"Perte de poids, Toux, Fatigue",Non,10.5,38.2,Tuberculose
+67,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,11.8,38.0,Diabète
+55,Femme,"Toux, Fièvre, Fatigue, Douleurs musculaires",Oui,12.1,39.5,COVID-19
+20,Femme,"Douleurs abdominales, Fatigue, Nausée",Non,14.2,37.4,Hépatite
+71,Homme,"Frissons, Nausée, Fatigue, Fièvre",Oui,10.8,39.0,Paludisme
+42,Femme,"Maux de tête, Vertiges, Fatigue",Non,12.8,36.1,Hypertension
+6,Femme,"Jaunisse, Fatigue",Oui,12.0,36.4,Hépatite
+71,Homme,"Frissons, Nausée, Fièvre, Fatigue",Oui,10.9,39.1,Paludisme
+72,Homme,"Perte de poids, Fatigue, Toux, Fièvre",Oui,11.8,36.7,Tuberculose
+35,Homme,"Toux, Fatigue",Oui,15.9,37.7,Grippe
+92,Femme,"Fatigue, Toux, Douleurs musculaires",Oui,9.8,36.6,COVID-19
+58,Homme,"Fatigue, Jaunisse, Nausée, Douleurs abdominales",Non,11.6,38.3,Hépatite
+21,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,15.2,36.8,Diabète
+74,Femme,"Maux de tête, Fatigue",Oui,15.7,38.0,Hypertension
+26,Femme,"Fatigue, Mictions fréquentes",Oui,9.1,37.2,Diabète
+55,Femme,"Fatigue, Toux",Oui,11.7,38.6,Grippe
+25,Homme,"Fatigue, Jaunisse",Oui,15.3,39.9,Hépatite
+69,Femme,"Douleurs abdominales, Jaunisse, Fatigue, Nausée",Oui,14.8,39.9,Hépatite
+58,Femme,"Fatigue, Douleurs abdominales, Jaunisse, Nausée",Non,12.6,36.7,Hépatite
+95,Homme,"Maux de tête, Vertiges",Non,10.2,40.2,Hypertension
+9,Femme,"Vertiges, Fatigue",Non,12.0,36.6,Hypertension
+65,Femme,"Fatigue, Mictions fréquentes",Non,9.9,40.0,Diabète
+32,Homme,"Frissons, Nausée",Non,10.8,39.2,Paludisme
+49,Femme,"Toux, Fatigue, Maux de tête, Fièvre",Oui,13.9,38.7,Grippe
+74,Femme,"Fièvre, Perte de poids",Oui,11.8,40.2,Tuberculose
+54,Femme,"Nausée, Douleurs abdominales",Oui,15.9,39.9,Hépatite
+51,Homme,"Fatigue, Perte de poids",Non,9.0,36.1,Tuberculose
+8,Homme,"Douleurs musculaires, Fièvre",Non,12.6,39.7,COVID-19
+44,Femme,"Douleurs musculaires, Fièvre, Toux",Oui,14.3,38.5,COVID-19
+87,Homme,"Perte de poids, Fatigue, Toux, Fièvre",Oui,13.2,39.9,Tuberculose
+39,Femme,"Douleurs abdominales, Fatigue, Jaunisse, Nausée",Non,10.3,36.6,Hépatite
+99,Homme,"Fatigue, Maux de tête, Fièvre",Oui,11.6,36.9,Grippe
+30,Homme,"Fièvre, Toux, Fatigue, Maux de tête",Non,12.2,37.6,Grippe
+89,Femme,"Mictions fréquentes, Soif excessive, Fatigue",Non,11.9,37.7,Diabète
+78,Homme,"Fièvre, Fatigue, Perte de poids, Toux",Oui,13.2,38.8,Tuberculose
+96,Homme,"Maux de tête, Fatigue, Fièvre, Toux",Non,15.9,37.0,Grippe
+11,Femme,"Fatigue, Fièvre",Oui,12.8,38.6,Paludisme
+59,Homme,"Fatigue, Toux",Oui,15.3,39.8,COVID-19
+61,Homme,"Perte de poids, Toux",Non,11.2,37.6,Tuberculose
+80,Femme,"Fatigue, Perte de poids, Toux",Oui,12.2,38.1,Tuberculose
+70,Femme,"Fièvre, Toux, Fatigue, Maux de tête",Oui,14.9,36.1,Grippe
+22,Homme,"Maux de tête, Vertiges, Fatigue",Non,14.5,38.4,Hypertension
+44,Femme,"Nausée, Jaunisse, Douleurs abdominales",Oui,14.8,36.5,Hépatite
+2,Femme,"Douleurs musculaires, Toux, Fatigue",Non,15.2,36.8,COVID-19
+64,Homme,"Fatigue, Nausée, Frissons",Oui,10.5,38.7,Paludisme
+36,Homme,"Nausée, Frissons, Fatigue, Fièvre",Non,9.3,39.2,Paludisme
+86,Homme,"Mictions fréquentes, Fatigue",Oui,10.4,39.9,Diabète
+74,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,12.2,39.2,Diabète
+33,Homme,"Jaunisse, Nausée, Fatigue",Non,12.3,39.6,Hépatite
+50,Femme,"Frissons, Fatigue",Oui,9.2,40.4,Paludisme
+18,Femme,"Fièvre, Douleurs musculaires",Non,14.8,39.4,COVID-19
+10,Femme,"Frissons, Nausée",Non,14.9,39.2,Paludisme
+76,Femme,"Nausée, Frissons",Non,14.8,37.5,Paludisme
+77,Homme,"Douleurs musculaires, Fatigue, Toux",Non,15.7,37.7,COVID-19
+1,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Non,15.2,39.9,Diabète
+44,Femme,"Fatigue, Vertiges, Maux de tête",Non,14.4,37.7,Hypertension
+28,Femme,"Fatigue, Fièvre, Perte de poids, Toux",Oui,10.5,36.1,Tuberculose
+32,Homme,"Vertiges, Maux de tête",Oui,13.1,37.0,Hypertension
+66,Femme,"Fièvre, Douleurs musculaires, Toux",Non,15.6,36.9,COVID-19
+34,Homme,"Fatigue, Maux de tête, Vertiges",Oui,9.2,39.1,Hypertension
+32,Homme,"Maux de tête, Toux, Fièvre, Fatigue",Non,12.3,39.9,Grippe
+29,Femme,"Fatigue, Vertiges, Maux de tête",Oui,12.5,39.9,Hypertension
+97,Femme,"Fièvre, Fatigue",Oui,11.0,37.0,Paludisme
+7,Femme,"Nausée, Jaunisse",Oui,14.4,39.1,Hépatite
+17,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,13.3,36.3,Diabète
+66,Homme,"Fatigue, Maux de tête, Vertiges",Oui,13.6,39.4,Hypertension
+34,Homme,"Nausée, Frissons, Fatigue",Oui,12.0,38.2,Paludisme
+67,Femme,"Nausée, Fièvre, Frissons, Fatigue",Oui,14.2,38.2,Paludisme
+59,Femme,"Fièvre, Maux de tête",Non,9.9,38.3,Grippe
+31,Femme,"Maux de tête, Toux",Non,12.8,39.1,Grippe
+24,Homme,"Douleurs musculaires, Fatigue, Fièvre",Non,9.8,36.9,COVID-19
+17,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,15.9,36.9,Diabète
+39,Femme,"Jaunisse, Douleurs abdominales, Nausée",Non,10.6,38.4,Hépatite
+25,Homme,"Maux de tête, Toux, Fièvre",Oui,12.4,38.5,Grippe
+43,Femme,"Toux, Fatigue",Oui,9.6,38.6,Tuberculose
+41,Femme,"Toux, Fièvre, Douleurs musculaires, Fatigue",Non,13.9,39.2,COVID-19
+42,Homme,"Toux, Fatigue",Oui,14.5,39.1,COVID-19
+63,Homme,"Fatigue, Jaunisse, Nausée",Oui,9.7,40.2,Hépatite
+49,Femme,"Vertiges, Maux de tête",Non,9.8,36.6,Hypertension
+20,Femme,"Douleurs abdominales, Fatigue, Nausée, Jaunisse",Oui,12.7,37.0,Hépatite
+97,Homme,"Nausée, Fièvre",Non,10.9,40.4,Paludisme
+37,Femme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,14.1,37.0,Diabète
+40,Femme,"Fièvre, Frissons, Fatigue",Oui,14.2,37.1,Paludisme
+53,Femme,"Douleurs abdominales, Fatigue, Jaunisse, Nausée",Non,12.1,40.2,Hépatite
+80,Femme,"Fièvre, Fatigue, Toux",Oui,12.5,40.4,Tuberculose
+29,Femme,"Fatigue, Nausée",Oui,12.5,39.5,Paludisme
+16,Homme,"Fatigue, Douleurs abdominales",Oui,9.5,37.3,Hépatite
+27,Femme,"Fièvre, Toux, Perte de poids",Non,11.9,37.1,Tuberculose
+21,Femme,"Fièvre, Fatigue",Oui,13.3,36.1,Grippe
+98,Femme,"Toux, Douleurs musculaires, Fatigue, Fièvre",Non,12.9,38.6,COVID-19
+13,Femme,"Maux de tête, Fatigue, Vertiges",Oui,14.8,38.4,Hypertension
+91,Homme,"Toux, Douleurs musculaires, Fatigue",Oui,15.4,39.5,COVID-19
+62,Homme,"Vertiges, Fatigue, Maux de tête",Non,12.0,36.5,Hypertension
+21,Femme,"Maux de tête, Vertiges, Fatigue",Oui,11.5,37.2,Hypertension
+31,Femme,"Fatigue, Toux, Fièvre, Douleurs musculaires",Non,14.4,39.9,COVID-19
+76,Homme,"Maux de tête, Fatigue, Fièvre",Oui,14.7,36.7,Grippe
+71,Homme,"Fièvre, Fatigue",Oui,15.9,40.1,COVID-19
+89,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,10.2,36.7,Diabète
+4,Femme,"Soif excessive, Fatigue",Non,13.6,36.3,Diabète
+80,Homme,"Fatigue, Nausée",Non,10.2,39.2,Hépatite
+72,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Non,12.3,36.5,Diabète
+10,Homme,"Vertiges, Maux de tête, Fatigue",Oui,14.5,37.6,Hypertension
+13,Homme,"Soif excessive, Mictions fréquentes",Oui,9.6,37.8,Diabète
+87,Femme,"Douleurs musculaires, Fatigue, Fièvre, Toux",Oui,15.1,40.1,COVID-19
+26,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Non,9.8,38.8,Diabète
+74,Homme,"Toux, Douleurs musculaires, Fatigue",Oui,10.3,37.3,COVID-19
+21,Femme,"Fatigue, Fièvre, Nausée, Frissons",Oui,15.7,39.1,Paludisme
+72,Homme,"Fatigue, Fièvre",Oui,14.0,37.4,COVID-19
+4,Homme,"Fatigue, Fièvre",Oui,14.9,37.1,Paludisme
+53,Homme,"Maux de tête, Fatigue, Vertiges",Oui,14.9,38.8,Hypertension
+4,Homme,"Nausée, Fièvre, Fatigue",Non,12.5,38.9,Paludisme
+33,Femme,"Nausée, Fièvre, Fatigue",Oui,14.4,37.4,Paludisme
+4,Homme,"Toux, Fièvre, Fatigue",Non,10.5,36.4,Grippe
+73,Femme,"Fatigue, Douleurs abdominales, Jaunisse, Nausée",Non,9.3,36.5,Hépatite
+23,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,10.6,39.3,Diabète
+70,Femme,"Fatigue, Fièvre, Maux de tête",Non,13.2,38.0,Grippe
+91,Homme,"Fièvre, Perte de poids, Fatigue, Toux",Non,13.3,40.2,Tuberculose
+75,Femme,"Toux, Fatigue, Douleurs musculaires, Fièvre",Non,14.7,36.8,COVID-19
+50,Homme,"Fièvre, Fatigue, Frissons, Nausée",Non,12.5,38.7,Paludisme
+43,Homme,"Fatigue, Frissons",Oui,11.4,39.1,Paludisme
+55,Homme,"Perte de poids, Fièvre",Oui,10.3,38.4,Tuberculose
+80,Femme,"Fatigue, Douleurs musculaires, Toux, Fièvre",Non,13.5,36.7,COVID-19
+59,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,11.1,37.5,Diabète
+46,Homme,"Fièvre, Toux",Non,13.2,36.6,Grippe
+2,Femme,"Fatigue, Fièvre, Frissons, Nausée",Oui,13.8,38.5,Paludisme
+49,Femme,"Jaunisse, Douleurs abdominales, Fatigue, Nausée",Non,15.7,37.1,Hépatite
+1,Homme,"Soif excessive, Mictions fréquentes",Oui,13.8,39.5,Diabète
+51,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Oui,14.1,36.7,Diabète
+64,Homme,"Maux de tête, Fièvre, Fatigue, Toux",Oui,14.0,37.7,Grippe
+49,Femme,"Jaunisse, Fatigue, Douleurs abdominales",Oui,14.8,38.1,Hépatite
+92,Femme,"Mictions fréquentes, Soif excessive",Oui,11.9,38.0,Diabète
+66,Femme,"Maux de tête, Fatigue, Vertiges",Non,14.3,37.1,Hypertension
+70,Femme,"Frissons, Fièvre, Nausée",Oui,13.7,36.4,Paludisme
+28,Femme,"Maux de tête, Fatigue, Toux, Fièvre",Non,10.4,39.1,Grippe
+6,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Non,14.9,38.7,Diabète
+10,Homme,"Fatigue, Nausée",Oui,15.8,38.3,Paludisme
+42,Homme,"Toux, Douleurs musculaires, Fatigue",Oui,11.7,39.2,COVID-19
+57,Homme,"Jaunisse, Fatigue, Douleurs abdominales, Nausée",Non,16.0,39.7,Hépatite
+94,Homme,"Fièvre, Fatigue",Oui,15.6,38.8,Paludisme
+52,Femme,"Fatigue, Douleurs musculaires, Toux, Fièvre",Oui,14.3,39.8,COVID-19
+61,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,12.7,36.8,Diabète
+98,Homme,"Maux de tête, Vertiges, Fatigue",Oui,12.8,37.3,Hypertension
+87,Femme,"Fatigue, Douleurs musculaires",Oui,9.2,37.7,COVID-19
+64,Homme,"Fatigue, Douleurs musculaires",Non,9.6,37.1,COVID-19
+23,Femme,"Fièvre, Frissons, Nausée",Oui,11.8,37.3,Paludisme
+18,Femme,"Nausée, Fatigue, Frissons",Oui,11.9,38.2,Paludisme
+59,Femme,"Soif excessive, Fatigue",Non,12.4,39.0,Diabète
+66,Homme,"Fatigue, Vertiges, Maux de tête",Non,10.9,39.1,Hypertension
+55,Homme,"Soif excessive, Fatigue, Mictions fréquentes",Non,11.6,40.1,Diabète
+98,Femme,"Fatigue, Perte de poids",Non,15.3,37.6,Tuberculose
+90,Homme,"Toux, Fatigue",Oui,9.3,38.6,COVID-19
+74,Homme,"Fatigue, Vertiges, Maux de tête",Oui,12.7,38.4,Hypertension
+26,Homme,"Douleurs abdominales, Nausée, Jaunisse, Fatigue",Oui,15.6,40.0,Hépatite
+6,Femme,"Fatigue, Vertiges",Oui,15.0,39.0,Hypertension
+51,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Non,14.9,38.4,Diabète
+2,Femme,"Nausée, Frissons, Fièvre, Fatigue",Non,10.4,37.6,Paludisme
+64,Homme,"Fatigue, Nausée, Fièvre, Frissons",Non,15.4,39.7,Paludisme
+74,Femme,"Jaunisse, Fatigue",Non,12.2,38.2,Hépatite
+33,Homme,"Toux, Fatigue, Fièvre",Non,10.9,40.1,COVID-19
+17,Femme,"Nausée, Fatigue, Jaunisse, Douleurs abdominales",Oui,10.5,39.8,Hépatite
+31,Homme,"Toux, Fatigue, Fièvre, Douleurs musculaires",Non,9.5,36.5,COVID-19
+53,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Oui,13.3,39.6,Diabète
+38,Femme,"Toux, Fièvre, Fatigue",Non,9.5,38.0,Grippe
+95,Homme,"Maux de tête, Fatigue, Fièvre, Toux",Non,13.8,39.6,Grippe
+6,Homme,"Fièvre, Douleurs musculaires, Fatigue, Toux",Non,13.0,37.8,COVID-19
+31,Homme,"Fièvre, Nausée, Frissons",Oui,10.0,40.1,Paludisme
+51,Homme,"Fièvre, Fatigue, Nausée",Non,10.7,39.4,Paludisme
+99,Femme,"Fatigue, Douleurs musculaires",Oui,9.3,36.6,COVID-19
+28,Femme,"Nausée, Fièvre, Fatigue",Non,14.7,36.7,Paludisme
+39,Homme,"Fatigue, Douleurs musculaires, Toux",Oui,9.4,38.4,COVID-19
+3,Homme,"Fatigue, Maux de tête",Non,10.7,37.6,Hypertension
+50,Homme,"Maux de tête, Fatigue, Vertiges",Oui,10.6,40.0,Hypertension
+44,Homme,"Fatigue, Maux de tête",Non,14.9,36.8,Hypertension
+70,Femme,"Vertiges, Fatigue",Oui,10.0,38.3,Hypertension
+72,Homme,"Vertiges, Maux de tête",Non,11.1,37.7,Hypertension
+94,Homme,"Nausée, Fièvre, Fatigue, Frissons",Oui,13.3,38.1,Paludisme
+36,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,12.7,39.2,Diabète
+58,Femme,"Maux de tête, Fatigue, Vertiges",Oui,14.7,38.5,Hypertension
+32,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Oui,9.7,39.6,Diabète
+92,Femme,"Nausée, Fatigue, Frissons",Non,14.8,36.6,Paludisme
+24,Femme,"Toux, Fièvre, Maux de tête, Fatigue",Non,10.9,36.7,Grippe
+91,Femme,"Fatigue, Maux de tête",Non,13.2,39.9,Hypertension
+79,Femme,"Fatigue, Fièvre, Perte de poids, Toux",Oui,12.1,40.3,Tuberculose
+74,Homme,"Nausée, Douleurs abdominales, Jaunisse",Non,14.6,37.7,Hépatite
+29,Femme,"Fièvre, Maux de tête",Non,15.0,39.6,Grippe
+99,Homme,"Maux de tête, Fièvre, Fatigue",Oui,13.3,38.2,Grippe
+78,Femme,"Fatigue, Maux de tête",Non,14.9,38.6,Hypertension
+14,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Oui,15.4,39.0,Diabète
+40,Homme,"Vertiges, Maux de tête, Fatigue",Oui,13.8,36.9,Hypertension
+39,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,15.7,37.6,Diabète
+19,Homme,"Jaunisse, Fatigue, Nausée",Non,14.4,39.3,Hépatite
+37,Femme,"Maux de tête, Toux, Fatigue, Fièvre",Oui,14.3,37.6,Grippe
+82,Femme,"Fatigue, Fièvre, Nausée",Non,11.0,38.8,Paludisme
+34,Femme,"Nausée, Jaunisse",Oui,12.3,36.9,Hépatite
+70,Femme,"Fatigue, Maux de tête",Oui,12.0,38.1,Hypertension
+22,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,13.4,39.8,Diabète
+5,Femme,"Fièvre, Perte de poids, Fatigue",Non,10.1,39.4,Tuberculose
+40,Homme,"Fièvre, Fatigue, Douleurs musculaires",Non,13.9,38.9,COVID-19
+33,Femme,"Soif excessive, Mictions fréquentes",Oui,9.7,39.2,Diabète
+45,Homme,"Maux de tête, Vertiges, Fatigue",Oui,15.4,36.2,Hypertension
+53,Femme,"Toux, Perte de poids, Fatigue, Fièvre",Non,12.7,39.7,Tuberculose
+61,Femme,"Frissons, Nausée",Non,13.6,37.8,Paludisme
+48,Femme,"Fatigue, Frissons, Nausée, Fièvre",Oui,11.4,38.7,Paludisme
+22,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,15.4,38.2,Diabète
+68,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Non,10.4,40.4,Diabète
+61,Homme,"Fatigue, Mictions fréquentes",Non,15.2,36.8,Diabète
+65,Homme,"Fatigue, Mictions fréquentes, Soif excessive",Oui,12.2,40.1,Diabète
+92,Femme,"Frissons, Fièvre",Non,12.4,36.5,Paludisme
+53,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Oui,12.4,39.9,Diabète
+38,Femme,"Fièvre, Nausée, Frissons, Fatigue",Non,12.4,36.4,Paludisme
+67,Femme,"Fatigue, Jaunisse, Douleurs abdominales",Non,11.0,37.1,Hépatite
+1,Femme,"Toux, Fièvre",Oui,12.8,40.1,Tuberculose
+10,Homme,"Maux de tête, Fatigue, Vertiges",Oui,11.9,36.5,Hypertension
+45,Homme,"Maux de tête, Fatigue, Vertiges",Non,14.0,36.2,Hypertension
+73,Homme,"Fatigue, Mictions fréquentes",Oui,12.1,36.1,Diabète
+95,Femme,"Soif excessive, Fatigue",Oui,12.2,36.8,Diabète
+40,Homme,"Fatigue, Mictions fréquentes",Oui,13.6,40.4,Diabète
+23,Femme,"Nausée, Fièvre, Fatigue, Frissons",Non,12.1,38.6,Paludisme
+4,Femme,"Fièvre, Maux de tête, Fatigue, Toux",Non,14.0,36.1,Grippe
+8,Femme,"Toux, Fatigue, Perte de poids",Non,12.4,37.4,Tuberculose
+57,Femme,"Fièvre, Frissons, Fatigue, Nausée",Non,15.5,40.3,Paludisme
+98,Femme,"Fièvre, Fatigue",Oui,10.7,38.4,Tuberculose
+5,Femme,"Nausée, Douleurs abdominales, Jaunisse, Fatigue",Non,11.5,38.3,Hépatite
+20,Femme,"Toux, Fatigue, Maux de tête",Oui,12.4,39.5,Grippe
+8,Homme,"Fatigue, Nausée",Non,9.6,38.9,Paludisme
+71,Homme,"Fièvre, Nausée",Oui,15.9,36.5,Paludisme
+95,Femme,"Frissons, Nausée, Fièvre",Non,9.2,40.5,Paludisme
+25,Homme,"Nausée, Fatigue, Fièvre, Frissons",Oui,15.9,40.1,Paludisme
+82,Femme,"Fièvre, Nausée, Frissons",Non,13.1,36.0,Paludisme
+90,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Non,14.9,36.2,Diabète
+96,Femme,"Fatigue, Nausée, Frissons, Fièvre",Oui,14.2,38.8,Paludisme
+10,Homme,"Vertiges, Fatigue",Oui,14.5,37.7,Hypertension
+70,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Oui,11.2,39.7,Diabète
+91,Homme,"Maux de tête, Fièvre, Toux, Fatigue",Oui,14.1,40.3,Grippe
+68,Homme,"Fatigue, Fièvre, Douleurs musculaires",Oui,14.8,40.2,COVID-19
+35,Homme,"Toux, Fièvre, Fatigue",Oui,15.4,37.7,COVID-19
+3,Homme,"Douleurs abdominales, Jaunisse, Nausée, Fatigue",Non,10.8,37.1,Hépatite
+44,Femme,"Jaunisse, Douleurs abdominales, Fatigue",Oui,11.6,39.4,Hépatite
+71,Homme,"Soif excessive, Mictions fréquentes",Oui,13.9,36.9,Diabète
+50,Homme,"Maux de tête, Vertiges, Fatigue",Non,12.5,36.8,Hypertension
+14,Homme,"Vertiges, Maux de tête",Non,13.4,39.7,Hypertension
+98,Homme,"Mictions fréquentes, Soif excessive",Oui,13.9,38.0,Diabète
+15,Homme,"Toux, Fatigue",Oui,11.0,37.4,Grippe
+1,Homme,"Fièvre, Fatigue, Perte de poids",Oui,11.4,37.4,Tuberculose
+66,Femme,"Fièvre, Toux, Maux de tête",Non,14.4,37.2,Grippe
+34,Femme,"Fatigue, Frissons",Non,13.4,38.8,Paludisme
+21,Homme,"Vertiges, Maux de tête, Fatigue",Oui,12.9,37.8,Hypertension
+54,Femme,"Fatigue, Toux",Non,12.3,38.8,Tuberculose
+13,Homme,"Fièvre, Perte de poids, Toux, Fatigue",Oui,11.2,37.3,Tuberculose
+73,Femme,"Toux, Douleurs musculaires, Fièvre, Fatigue",Oui,16.0,39.4,COVID-19
+18,Homme,"Fatigue, Fièvre, Toux",Non,12.0,36.4,Grippe
+15,Homme,"Fièvre, Maux de tête, Fatigue, Toux",Oui,11.2,36.7,Grippe
+27,Femme,"Maux de tête, Vertiges",Oui,15.3,39.5,Hypertension
+22,Femme,"Fatigue, Vertiges, Maux de tête",Oui,15.9,38.1,Hypertension
+4,Homme,"Fatigue, Douleurs abdominales",Non,10.8,39.9,Hépatite
+94,Homme,"Perte de poids, Fatigue",Oui,13.9,37.3,Tuberculose
+97,Homme,"Maux de tête, Fatigue, Fièvre",Oui,10.8,37.8,Grippe
+8,Homme,"Vertiges, Fatigue, Maux de tête",Oui,11.2,39.5,Hypertension
+35,Homme,"Vertiges, Maux de tête, Fatigue",Oui,9.6,36.6,Hypertension
+48,Homme,"Fièvre, Toux, Fatigue, Maux de tête",Non,13.7,36.4,Grippe
+28,Femme,"Maux de tête, Fatigue",Non,9.9,36.4,Hypertension
+93,Femme,"Fièvre, Fatigue, Perte de poids",Oui,12.7,40.1,Tuberculose
+90,Femme,"Jaunisse, Douleurs abdominales, Nausée, Fatigue",Non,9.2,38.6,Hépatite
+9,Femme,"Vertiges, Fatigue, Maux de tête",Oui,12.3,40.1,Hypertension
+43,Homme,"Maux de tête, Fatigue",Oui,13.6,36.1,Hypertension
+6,Femme,"Fatigue, Nausée, Fièvre, Frissons",Non,10.6,40.1,Paludisme
+78,Femme,"Fièvre, Toux, Fatigue, Maux de tête",Non,15.8,37.8,Grippe
+29,Homme,"Fatigue, Vertiges",Oui,15.0,37.2,Hypertension
+34,Femme,"Nausée, Fièvre",Non,13.8,36.8,Paludisme
+83,Femme,"Fatigue, Fièvre, Toux",Non,10.6,38.7,Tuberculose
+71,Femme,"Toux, Fatigue, Douleurs musculaires, Fièvre",Oui,12.4,40.1,COVID-19
+15,Homme,"Soif excessive, Mictions fréquentes",Oui,11.1,38.3,Diabète
+100,Femme,"Fatigue, Soif excessive, Mictions fréquentes",Non,9.3,38.1,Diabète
+99,Homme,"Toux, Fièvre, Fatigue, Perte de poids",Non,15.1,39.1,Tuberculose
+7,Femme,"Fièvre, Frissons",Oui,12.1,39.5,Paludisme
+35,Femme,"Vertiges, Maux de tête, Fatigue",Non,14.8,39.5,Hypertension
+54,Homme,"Nausée, Fatigue, Douleurs abdominales, Jaunisse",Oui,14.9,39.3,Hépatite
+70,Homme,"Perte de poids, Toux, Fatigue",Non,15.6,39.7,Tuberculose
+5,Homme,"Toux, Fatigue",Non,12.2,38.6,Grippe
+27,Homme,"Fatigue, Maux de tête, Vertiges",Non,13.9,38.8,Hypertension
+53,Femme,"Toux, Fatigue, Fièvre",Non,10.5,39.9,Grippe
+64,Femme,"Fièvre, Nausée, Fatigue",Oui,11.7,37.5,Paludisme
+74,Homme,"Fatigue, Vertiges",Oui,9.8,36.3,Hypertension
+97,Femme,"Douleurs abdominales, Jaunisse, Nausée",Oui,13.5,40.2,Hépatite
+16,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Oui,10.7,36.4,Diabète
+46,Homme,"Fatigue, Maux de tête",Non,9.0,37.9,Hypertension
+21,Homme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,14.6,36.1,Diabète
+43,Femme,"Mictions fréquentes, Soif excessive",Non,10.8,37.5,Diabète
+88,Femme,"Fatigue, Fièvre",Non,12.6,36.3,Grippe
+36,Femme,"Soif excessive, Mictions fréquentes",Oui,10.0,36.3,Diabète
+66,Homme,"Nausée, Fièvre, Fatigue, Frissons",Oui,15.0,39.3,Paludisme
+7,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Non,14.3,39.7,Diabète
+54,Homme,"Maux de tête, Fièvre, Toux",Oui,10.9,39.5,Grippe
+51,Homme,"Nausée, Fatigue",Oui,12.9,37.0,Hépatite
+39,Femme,"Fatigue, Maux de tête, Vertiges",Oui,14.4,39.2,Hypertension
+11,Homme,"Douleurs abdominales, Jaunisse",Oui,15.2,37.7,Hépatite
+66,Femme,"Douleurs abdominales, Jaunisse, Nausée",Oui,14.0,39.0,Hépatite
+59,Homme,"Fièvre, Toux",Oui,9.4,39.6,Tuberculose
+40,Femme,"Toux, Fatigue",Non,11.9,39.0,Grippe
+75,Femme,"Nausée, Fatigue",Non,9.8,38.1,Hépatite
+16,Femme,"Fatigue, Nausée, Frissons, Fièvre",Non,9.3,36.2,Paludisme
+62,Femme,"Toux, Fièvre",Non,10.5,39.3,Tuberculose
+7,Femme,"Fièvre, Fatigue, Nausée",Oui,9.8,40.3,Paludisme
+63,Homme,"Fatigue, Jaunisse, Douleurs abdominales, Nausée",Non,11.5,37.4,Hépatite
+62,Femme,"Fatigue, Fièvre, Frissons, Nausée",Non,14.5,38.5,Paludisme
+2,Homme,"Fatigue, Douleurs abdominales, Nausée",Non,13.2,39.1,Hépatite
+53,Homme,"Douleurs musculaires, Toux, Fièvre, Fatigue",Non,13.5,37.8,COVID-19
+34,Femme,"Douleurs musculaires, Toux, Fatigue",Non,15.5,38.2,COVID-19
+69,Femme,"Douleurs musculaires, Fatigue",Oui,14.6,36.6,COVID-19
+15,Homme,"Fatigue, Mictions fréquentes",Oui,11.3,37.2,Diabète
+1,Homme,"Perte de poids, Toux, Fièvre, Fatigue",Non,11.5,37.7,Tuberculose
+41,Homme,"Fatigue, Douleurs musculaires",Oui,12.9,37.3,COVID-19
+53,Homme,"Fatigue, Maux de tête",Oui,13.8,39.4,Grippe
+56,Homme,"Toux, Fatigue, Fièvre",Non,9.4,36.4,Grippe
+73,Homme,"Maux de tête, Vertiges",Non,9.0,39.7,Hypertension
+100,Femme,"Fatigue, Vertiges, Maux de tête",Oui,9.8,36.9,Hypertension
+51,Homme,"Fièvre, Fatigue, Perte de poids",Oui,10.6,36.4,Tuberculose
+89,Femme,"Fièvre, Douleurs musculaires, Toux, Fatigue",Oui,14.1,36.5,COVID-19
+58,Homme,"Fatigue, Douleurs abdominales, Jaunisse, Nausée",Non,15.2,37.3,Hépatite
+13,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Non,10.3,39.9,Diabète
+28,Femme,"Fatigue, Maux de tête",Oui,15.3,39.4,Hypertension
+62,Homme,"Fatigue, Douleurs musculaires, Toux",Non,12.3,36.2,COVID-19
+13,Homme,"Fatigue, Maux de tête, Fièvre",Non,13.8,39.8,Grippe
+45,Femme,"Toux, Maux de tête, Fièvre, Fatigue",Oui,13.5,36.0,Grippe
+66,Femme,"Fatigue, Nausée, Douleurs abdominales, Jaunisse",Oui,13.1,37.4,Hépatite
+78,Homme,"Frissons, Fièvre, Nausée, Fatigue",Oui,9.1,36.6,Paludisme
+94,Homme,"Toux, Perte de poids",Oui,11.8,36.8,Tuberculose
+79,Homme,"Fatigue, Fièvre, Maux de tête",Non,14.3,39.0,Grippe
+22,Homme,"Maux de tête, Fièvre, Fatigue",Non,13.7,37.6,Grippe
+24,Femme,"Fatigue, Frissons, Nausée",Oui,15.8,36.4,Paludisme
+1,Femme,"Fièvre, Toux, Perte de poids",Non,15.2,37.2,Tuberculose
+66,Femme,"Frissons, Nausée, Fièvre",Oui,12.0,36.8,Paludisme
+18,Homme,"Fièvre, Fatigue",Oui,12.8,39.8,Grippe
+69,Femme,"Maux de tête, Fièvre, Toux",Oui,14.1,38.3,Grippe
+31,Femme,"Nausée, Fatigue, Frissons, Fièvre",Non,14.6,36.2,Paludisme
+79,Femme,"Douleurs musculaires, Fatigue, Toux",Non,13.2,38.2,COVID-19
+75,Femme,"Fièvre, Fatigue, Maux de tête, Toux",Oui,14.1,38.7,Grippe
+25,Homme,"Fièvre, Nausée, Fatigue",Non,15.6,39.9,Paludisme
+40,Homme,"Fatigue, Fièvre, Frissons",Non,15.4,37.6,Paludisme
+11,Homme,"Maux de tête, Vertiges",Oui,11.4,40.4,Hypertension
+56,Femme,"Fatigue, Soif excessive, Mictions fréquentes",Non,11.4,38.1,Diabète
+80,Femme,"Fatigue, Vertiges",Non,9.1,39.4,Hypertension
+22,Homme,"Douleurs musculaires, Fatigue",Non,9.2,39.3,COVID-19
+23,Femme,"Vertiges, Fatigue, Maux de tête",Oui,15.2,39.5,Hypertension
+38,Homme,"Jaunisse, Douleurs abdominales",Oui,11.9,37.8,Hépatite
+56,Femme,"Douleurs musculaires, Fatigue, Toux",Oui,10.5,39.4,COVID-19
+63,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Oui,13.7,37.3,Diabète
+28,Femme,"Fatigue, Douleurs abdominales, Nausée, Jaunisse",Non,13.1,39.0,Hépatite
+80,Homme,"Fièvre, Maux de tête",Non,12.9,40.5,Grippe
+49,Femme,"Toux, Fatigue, Fièvre, Douleurs musculaires",Non,10.2,39.2,COVID-19
+64,Femme,"Toux, Maux de tête",Oui,10.0,36.9,Grippe
+70,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Non,11.8,38.7,Diabète
+66,Femme,"Douleurs musculaires, Toux, Fièvre",Non,16.0,39.0,COVID-19
+16,Homme,"Fièvre, Maux de tête, Fatigue",Non,13.6,39.3,Grippe
+77,Femme,"Maux de tête, Fatigue, Toux",Oui,13.1,40.2,Grippe
+94,Homme,"Soif excessive, Mictions fréquentes",Non,11.2,38.3,Diabète
+85,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Non,14.4,36.3,Diabète
+30,Femme,"Toux, Fièvre, Fatigue, Douleurs musculaires",Non,15.4,38.5,COVID-19
+75,Femme,"Nausée, Frissons, Fatigue, Fièvre",Non,14.1,36.1,Paludisme
+18,Femme,"Toux, Perte de poids, Fièvre, Fatigue",Oui,15.2,38.9,Tuberculose
+90,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Non,12.6,36.8,Diabète
+55,Femme,"Fièvre, Fatigue",Oui,12.6,37.3,Tuberculose
+69,Femme,"Perte de poids, Fièvre, Fatigue, Toux",Oui,15.0,36.4,Tuberculose
+22,Homme,"Douleurs musculaires, Fatigue, Fièvre",Non,15.5,36.1,COVID-19
+80,Homme,"Fatigue, Maux de tête",Oui,9.9,37.9,Hypertension
+56,Homme,"Fièvre, Toux, Fatigue, Perte de poids",Non,10.5,37.0,Tuberculose
+73,Homme,"Fatigue, Maux de tête, Vertiges",Oui,14.5,38.9,Hypertension
+3,Homme,"Mictions fréquentes, Soif excessive",Oui,11.4,36.4,Diabète
+54,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Non,13.1,39.3,Diabète
+31,Homme,"Maux de tête, Vertiges",Non,15.4,39.7,Hypertension
+28,Femme,"Fièvre, Nausée, Frissons, Fatigue",Oui,9.0,39.4,Paludisme
+23,Femme,"Maux de tête, Vertiges",Oui,10.3,38.9,Hypertension
+47,Femme,"Fièvre, Frissons, Fatigue, Nausée",Oui,9.3,40.5,Paludisme
+28,Femme,"Fatigue, Fièvre, Maux de tête",Oui,11.5,36.7,Grippe
+42,Femme,"Nausée, Frissons, Fièvre, Fatigue",Non,13.7,37.2,Paludisme
+27,Femme,"Fatigue, Fièvre, Frissons, Nausée",Non,15.4,39.8,Paludisme
+15,Femme,"Fatigue, Mictions fréquentes",Non,14.3,37.2,Diabète
+60,Femme,"Fatigue, Fièvre, Toux, Perte de poids",Oui,10.7,36.4,Tuberculose
+94,Femme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,14.7,39.6,Diabète
+10,Homme,"Fatigue, Fièvre, Toux, Perte de poids",Oui,9.4,36.6,Tuberculose
+91,Femme,"Frissons, Fatigue",Oui,10.2,37.1,Paludisme
+54,Homme,"Fatigue, Douleurs musculaires",Oui,12.0,39.9,COVID-19
+14,Homme,"Fatigue, Vertiges, Maux de tête",Oui,14.7,37.9,Hypertension
+47,Femme,"Vertiges, Maux de tête, Fatigue",Oui,13.2,39.8,Hypertension
+99,Femme,"Mictions fréquentes, Fatigue",Non,12.6,38.7,Diabète
+83,Homme,"Fièvre, Maux de tête",Non,10.1,37.9,Grippe
+90,Homme,"Perte de poids, Fièvre",Non,15.5,36.7,Tuberculose
+5,Homme,"Douleurs musculaires, Toux, Fatigue, Fièvre",Non,11.1,36.0,COVID-19
+45,Homme,"Frissons, Nausée, Fatigue",Non,9.3,40.0,Paludisme
+78,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Non,15.8,37.0,Diabète
+77,Femme,"Fatigue, Fièvre, Perte de poids, Toux",Non,14.6,39.6,Tuberculose
+88,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,11.3,37.6,Diabète
+36,Homme,"Fièvre, Fatigue",Oui,14.4,36.4,COVID-19
+76,Homme,"Toux, Maux de tête, Fatigue",Oui,11.1,40.2,Grippe
+12,Femme,"Douleurs abdominales, Jaunisse, Fatigue, Nausée",Non,11.6,39.3,Hépatite
+11,Homme,"Jaunisse, Nausée",Oui,11.5,36.1,Hépatite
+79,Homme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,10.7,37.5,Diabète
+73,Homme,"Fatigue, Mictions fréquentes",Non,15.9,38.9,Diabète
+81,Homme,"Soif excessive, Mictions fréquentes, Fatigue",Non,10.5,40.5,Diabète
+88,Femme,"Fatigue, Maux de tête",Non,10.1,40.0,Grippe
+97,Femme,"Toux, Fatigue",Oui,9.2,38.4,COVID-19
+92,Homme,"Perte de poids, Fatigue, Fièvre",Non,11.4,39.1,Tuberculose
+73,Homme,"Nausée, Jaunisse",Non,12.6,36.7,Hépatite
+79,Femme,"Fatigue, Maux de tête, Vertiges",Non,15.4,40.3,Hypertension
+40,Femme,"Fièvre, Fatigue",Non,11.6,36.9,Paludisme
+13,Femme,"Soif excessive, Fatigue, Mictions fréquentes",Non,11.4,36.5,Diabète
+94,Femme,"Maux de tête, Fatigue",Oui,9.3,36.2,Grippe
+38,Homme,"Soif excessive, Fatigue",Oui,10.0,37.1,Diabète
+63,Femme,"Toux, Maux de tête, Fièvre, Fatigue",Oui,11.3,39.6,Grippe
+95,Homme,"Mictions fréquentes, Soif excessive, Fatigue",Non,14.3,38.8,Diabète
+98,Femme,"Perte de poids, Toux, Fatigue, Fièvre",Oui,9.1,40.5,Tuberculose
+81,Homme,"Perte de poids, Fièvre",Non,12.0,38.8,Tuberculose
+58,Femme,"Toux, Fièvre, Maux de tête",Non,11.3,37.8,Grippe
+1,Homme,"Perte de poids, Fièvre",Non,14.1,36.1,Tuberculose
+1,Homme,"Toux, Fatigue, Fièvre, Douleurs musculaires",Oui,9.8,36.6,COVID-19
+29,Homme,"Fatigue, Mictions fréquentes",Non,11.3,37.2,Diabète
+91,Femme,"Fatigue, Fièvre, Douleurs musculaires",Non,9.2,37.2,COVID-19
+89,Homme,"Douleurs abdominales, Fatigue, Jaunisse",Oui,9.8,39.6,Hépatite
+8,Homme,"Fatigue, Maux de tête, Vertiges",Non,10.3,39.5,Hypertension
+26,Femme,"Nausée, Fatigue, Fièvre",Oui,13.2,40.3,Paludisme
+21,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Non,9.4,37.1,Diabète
+16,Femme,"Soif excessive, Mictions fréquentes",Non,13.5,38.1,Diabète
+43,Homme,"Fatigue, Frissons",Oui,10.6,39.2,Paludisme
+13,Femme,"Fatigue, Jaunisse, Nausée",Oui,13.2,37.9,Hépatite
+82,Homme,"Fatigue, Douleurs musculaires, Toux, Fièvre",Non,15.6,39.8,COVID-19
+26,Femme,"Frissons, Nausée, Fièvre",Non,12.4,39.2,Paludisme
+51,Femme,"Fatigue, Douleurs musculaires, Fièvre",Oui,13.6,38.5,COVID-19
+81,Homme,"Maux de tête, Toux",Non,14.2,38.5,Grippe
+60,Femme,"Fatigue, Maux de tête",Oui,10.5,38.8,Grippe
+34,Homme,"Fatigue, Vertiges",Non,10.0,36.5,Hypertension
+97,Homme,"Perte de poids, Fatigue",Oui,15.6,37.2,Tuberculose
+22,Homme,"Maux de tête, Fatigue, Vertiges",Oui,9.3,36.5,Hypertension
+79,Homme,"Fatigue, Fièvre",Oui,9.5,37.6,Grippe
+96,Femme,"Fatigue, Toux, Fièvre, Maux de tête",Non,14.1,37.7,Grippe
+3,Homme,"Fatigue, Jaunisse, Douleurs abdominales, Nausée",Non,14.0,40.5,Hépatite
+87,Femme,"Fièvre, Frissons, Nausée, Fatigue",Non,10.7,36.7,Paludisme
+100,Femme,"Mictions fréquentes, Soif excessive, Fatigue",Oui,15.7,38.2,Diabète
+30,Femme,"Fièvre, Toux, Douleurs musculaires, Fatigue",Non,12.8,40.3,COVID-19
+82,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Non,11.0,39.8,Diabète
+45,Homme,"Frissons, Fatigue, Fièvre, Nausée",Oui,13.3,39.6,Paludisme
+8,Homme,"Maux de tête, Fatigue",Non,9.6,37.1,Hypertension
+46,Homme,"Douleurs abdominales, Jaunisse, Fatigue",Oui,14.6,37.6,Hépatite
+6,Femme,"Fatigue, Soif excessive, Mictions fréquentes",Oui,9.1,37.9,Diabète
+66,Femme,"Fièvre, Perte de poids",Oui,15.8,38.5,Tuberculose
+77,Homme,"Fatigue, Nausée, Frissons",Oui,13.1,40.4,Paludisme
+68,Femme,"Frissons, Fatigue, Nausée",Oui,11.8,37.9,Paludisme
+87,Homme,"Soif excessive, Mictions fréquentes",Non,14.7,38.5,Diabète
+30,Homme,"Perte de poids, Fatigue",Non,11.9,36.8,Tuberculose
+6,Femme,"Douleurs musculaires, Toux, Fièvre, Fatigue",Non,10.2,36.7,COVID-19
+89,Femme,"Toux, Perte de poids, Fatigue, Fièvre",Non,13.2,36.1,Tuberculose
+94,Homme,"Fatigue, Fièvre",Oui,11.7,38.2,Paludisme
+62,Homme,"Douleurs abdominales, Jaunisse, Nausée",Oui,12.5,38.6,Hépatite
+53,Femme,"Mictions fréquentes, Fatigue, Soif excessive",Oui,15.0,37.5,Diabète
+68,Femme,"Vertiges, Maux de tête, Fatigue",Oui,14.7,39.1,Hypertension
+17,Homme,"Toux, Maux de tête",Non,14.1,38.4,Grippe
+33,Femme,"Fatigue, Toux, Douleurs musculaires",Non,14.9,39.6,COVID-19
+41,Femme,"Toux, Maux de tête, Fièvre, Fatigue",Non,14.9,40.4,Grippe
+11,Femme,"Fatigue, Vertiges, Maux de tête",Oui,14.7,39.5,Hypertension
+18,Homme,"Toux, Fatigue, Maux de tête, Fièvre",Non,11.0,36.7,Grippe
+52,Femme,"Perte de poids, Fièvre, Toux, Fatigue",Non,15.1,37.8,Tuberculose
+10,Femme,"Fièvre, Frissons",Oui,14.8,36.5,Paludisme
+41,Femme,"Mictions fréquentes, Soif excessive",Oui,13.2,39.9,Diabète
+20,Homme,"Frissons, Fatigue, Fièvre, Nausée",Oui,15.3,39.5,Paludisme
+98,Homme,"Fièvre, Fatigue, Perte de poids",Non,9.0,36.2,Tuberculose
+68,Femme,"Fatigue, Vertiges",Oui,15.0,39.5,Hypertension
+83,Femme,"Toux, Fatigue, Perte de poids",Non,13.1,36.8,Tuberculose
+36,Homme,"Perte de poids, Toux, Fatigue, Fièvre",Oui,13.1,40.2,Tuberculose
+29,Femme,"Perte de poids, Toux, Fatigue, Fièvre",Non,12.0,36.6,Tuberculose
+35,Homme,"Vertiges, Maux de tête",Oui,14.0,39.3,Hypertension
+73,Femme,"Douleurs musculaires, Fièvre, Fatigue, Toux",Oui,9.2,37.2,COVID-19
+87,Homme,"Fatigue, Toux",Non,14.9,37.6,Grippe
+26,Femme,"Soif excessive, Mictions fréquentes, Fatigue",Oui,11.1,36.3,Diabète
+12,Homme,"Fatigue, Vertiges, Maux de tête",Non,13.3,39.5,Hypertension
+33,Femme,"Toux, Douleurs musculaires, Fièvre, Fatigue",Non,12.0,37.6,COVID-19
+1,Homme,"Toux, Perte de poids",Oui,12.7,38.7,Tuberculose
+31,Homme,"Maux de tête, Toux, Fièvre",Non,12.7,39.4,Grippe
+77,Homme,"Soif excessive, Mictions fréquentes, Fatigue",Non,11.2,36.6,Diabète
+40,Femme,"Fièvre, Fatigue",Non,15.5,37.1,COVID-19
+86,Homme,"Nausée, Fatigue, Frissons",Oui,11.4,38.1,Paludisme
+15,Femme,"Toux, Fièvre, Fatigue, Maux de tête",Oui,15.3,40.4,Grippe
+83,Homme,"Toux, Douleurs musculaires",Non,14.5,38.3,COVID-19
+45,Homme,"Toux, Fièvre",Oui,11.0,39.2,Grippe
+64,Homme,"Douleurs abdominales, Fatigue, Jaunisse, Nausée",Non,14.0,38.5,Hépatite
+97,Femme,"Fièvre, Maux de tête, Fatigue",Non,15.0,37.0,Grippe
+7,Homme,"Fatigue, Jaunisse, Nausée",Non,12.8,36.1,Hépatite
+84,Homme,"Douleurs musculaires, Toux, Fièvre",Oui,13.7,39.2,COVID-19
+11,Homme,"Fatigue, Fièvre, Douleurs musculaires",Oui,11.2,37.1,COVID-19
+97,Homme,"Fatigue, Jaunisse, Nausée, Douleurs abdominales",Non,10.4,36.2,Hépatite
+98,Homme,"Nausée, Fatigue, Douleurs abdominales, Jaunisse",Oui,9.9,39.7,Hépatite
+67,Femme,"Fatigue, Douleurs abdominales, Nausée, Jaunisse",Oui,13.0,39.7,Hépatite
+25,Femme,"Soif excessive, Mictions fréquentes",Non,14.7,40.2,Diabète
+2,Femme,"Toux, Fièvre, Douleurs musculaires, Fatigue",Oui,12.7,37.1,COVID-19
+99,Homme,"Frissons, Nausée, Fatigue, Fièvre",Oui,12.0,40.5,Paludisme
+58,Homme,"Maux de tête, Toux",Non,11.6,38.0,Grippe
+11,Homme,"Nausée, Fatigue",Oui,14.9,39.2,Paludisme
+7,Homme,"Fatigue, Perte de poids, Fièvre",Oui,10.0,38.6,Tuberculose
+19,Homme,"Fièvre, Perte de poids, Fatigue, Toux",Non,15.6,38.2,Tuberculose
+28,Femme,"Fièvre, Nausée, Frissons, Fatigue",Oui,13.6,36.3,Paludisme
+68,Femme,"Douleurs musculaires, Toux, Fièvre",Non,11.9,36.2,COVID-19
+78,Homme,"Fatigue, Maux de tête, Vertiges",Oui,10.5,40.5,Hypertension
+26,Femme,"Maux de tête, Fatigue, Vertiges",Oui,15.6,40.4,Hypertension
+84,Femme,"Fatigue, Mictions fréquentes, Soif excessive",Non,15.9,39.6,Diabète
+83,Femme,"Perte de poids, Toux",Non,15.2,37.5,Tuberculose
+98,Homme,"Fièvre, Toux, Fatigue",Oui,14.8,39.1,Tuberculose
+21,Homme,"Fièvre, Perte de poids, Fatigue",Non,14.8,40.4,Tuberculose
+78,Homme,"Fatigue, Soif excessive",Oui,9.7,39.8,Diabète
+18,Homme,"Nausée, Douleurs abdominales",Oui,13.8,40.0,Hépatite
+57,Homme,"Toux, Fatigue, Perte de poids",Oui,15.7,37.6,Tuberculose
+72,Femme,"Fièvre, Maux de tête",Oui,15.8,37.5,Grippe
+49,Homme,"Maux de tête, Vertiges, Fatigue",Oui,15.1,40.3,Hypertension
+77,Homme,"Douleurs musculaires, Toux, Fatigue",Non,11.0,37.0,COVID-19
+18,Homme,"Fièvre, Douleurs musculaires, Fatigue, Toux",Oui,9.8,36.6,COVID-19
+32,Homme,"Fièvre, Toux, Fatigue",Non,15.6,39.5,Tuberculose
+51,Homme,"Fatigue, Toux, Fièvre, Perte de poids",Non,14.2,40.2,Tuberculose
+40,Femme,"Frissons, Fièvre",Oui,10.2,39.8,Paludisme
