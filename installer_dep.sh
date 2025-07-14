@@ -1,6 +1,6 @@
 # Liste des microservices
 configs=("myconfig" "mygateway" "myDiscorveryServer")
-services=("PatientManager" "dosmed" "RHManager" "PharmacyManager" "Authentification" "Diagnotic")
+services=("PatientManager" "dosmed" "RHManager" "PharmacyManager" "Authentification" "Diagnotic" "uploader")
 all_services=("${configs[@]}" "${services[@]}")
 
 # Étape 0 : Installation des dépendances (mvn install)

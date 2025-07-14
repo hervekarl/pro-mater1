@@ -13,4 +13,3 @@ public class PredictionRequest {
     private double temperature;
     private List<String> symptomes;
 }
-

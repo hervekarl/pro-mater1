@@ -1,0 +1,141 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.herve.intergiciel:mygateway >-------------------
+[INFO] Building mygateway 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.4:run (default-cli) > test-compile @ mygateway >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ mygateway ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ mygateway ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ mygateway ---
+[INFO] skip non existing resourceDirectory /Users/apple/Documents/uvpro/back/pro-mater1/mygateway/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ mygateway ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.4.4:run (default-cli) < test-compile @ mygateway <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.4:run (default-cli) @ mygateway ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-07-14T14:13:12.440+01:00  INFO 96565 --- [gateway] [           main] c.h.i.mygateway.MygatewayApplication     : Starting MygatewayApplication using Java 23.0.1 with PID 96565 (/Users/apple/Documents/uvpro/back/pro-mater1/mygateway/target/classes started by apple in /Users/apple/Documents/uvpro/back/pro-mater1/mygateway)
+2025-07-14T14:13:12.443+01:00  INFO 96565 --- [gateway] [           main] c.h.i.mygateway.MygatewayApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-07-14T14:13:12.621+01:00  INFO 96565 --- [gateway] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-07-14T14:13:12.621+01:00  INFO 96565 --- [gateway] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=gateway, profiles=[default], label=null, version=null, state=null
+2025-07-14T14:13:15.558+01:00  INFO 96565 --- [gateway] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0f869758-8982-356c-a7bd-7f0dbc5c6e08
+2025-07-14T14:13:16.703+01:00  INFO 96565 --- [gateway] [           main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ae4575de-5a03-4316-83c9-d6e9c6d7cbec
+
+2025-07-14T14:13:18.164+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-07-14T14:13:18.164+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-07-14T14:13:18.164+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-14T14:13:18.165+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-07-14T14:13:18.166+01:00  INFO 96565 --- [gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-14T14:13:18.590+01:00  INFO 96565 --- [gateway] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-14T14:13:18.998+01:00  INFO 96565 --- [gateway] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-14T14:13:19.115+01:00  WARN 96565 --- [gateway] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-14T14:13:19.269+01:00  INFO 96565 --- [gateway] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-14T14:13:19.355+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-14T14:13:19.364+01:00  INFO 96565 --- [gateway] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:13:19.378+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-14T14:13:19.378+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-14T14:13:19.379+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-14T14:13:19.379+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-14T14:13:19.379+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-14T14:13:19.379+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-14T14:13:19.379+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-14T14:13:19.884+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-14T14:13:19.887+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-14T14:13:19.889+01:00  INFO 96565 --- [gateway] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-14T14:13:19.891+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1752498799891 with initial instances count: 2
+2025-07-14T14:13:19.897+01:00  INFO 96565 --- [gateway] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY with eureka with status UP
+2025-07-14T14:13:19.898+01:00  INFO 96565 --- [gateway] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1752498799898, current=UP, previous=STARTING]
+2025-07-14T14:13:19.900+01:00  INFO 96565 --- [gateway] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/192.168.81.203:gateway:8080: registering service...
+2025-07-14T14:13:19.944+01:00  INFO 96565 --- [gateway] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/192.168.81.203:gateway:8080 - registration status: 204
+2025-07-14T14:13:20.241+01:00  INFO 96565 --- [gateway] [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-07-14T14:13:20.243+01:00  INFO 96565 --- [gateway] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-07-14T14:13:20.312+01:00  INFO 96565 --- [gateway] [           main] c.h.i.mygateway.MygatewayApplication     : Started MygatewayApplication in 10.553 seconds (process running for 12.301)
+2025-07-14T14:18:19.367+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:23:19.355+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:28:19.127+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:33:19.114+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:38:19.101+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:43:19.117+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:48:19.110+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:53:19.100+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:58:18.913+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:03:18.898+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:08:18.883+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:13:18.811+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:18:18.799+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:23:18.785+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:28:19.129+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:33:19.141+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:38:19.152+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:43:19.375+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:48:19.390+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:53:19.403+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:58:19.517+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:03:19.531+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:08:19.546+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:13:19.576+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:18:19.592+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:23:19.605+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:28:19.570+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:33:19.582+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:38:19.589+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:43:19.577+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:48:19.584+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:53:19.593+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:58:19.354+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:03:19.350+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:08:19.347+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:13:19.304+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:18:19.295+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:23:19.287+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:28:19.278+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:33:19.273+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:38:19.270+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:43:19.265+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:48:19.261+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:53:19.255+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:58:19.085+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:03:19.073+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:08:19.059+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:13:19.235+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:18:19.227+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:23:19.220+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:28:19.204+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:33:19.197+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:38:19.193+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:43:19.165+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:48:19.158+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:53:19.154+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:58:19.138+01:00  INFO 96565 --- [gateway] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

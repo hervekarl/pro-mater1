@@ -11,7 +11,7 @@ import pro.master.com.Diagnotic.DTO.PredictionResponse;
 import pro.master.com.Diagnotic.services.DiagnoticService;
 
 @RestController
-@RequestMapping("/api/diagnostic")
+@RequestMapping("/diagnostic")
 public class DiagnosticController {
 
     private final DiagnoticService diagnoticService;

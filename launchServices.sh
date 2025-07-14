@@ -5,9 +5,7 @@ GREEN="\e[32m"
 RESET="\e[0m"
 
 # Liste des microservices
-services=("mygateway" "PatientManager" "dosmed" "RHManager" "PharmacyManager" "Authentification")
-all_services=("${configs[@]}" "${services[@]}")
-
+services=("mygateway" "PatientManager" "dosmed" "RHManager" "PharmacyManager" "Authentification" "uploader" "Diagnotic")
 
 # Étape 2 : Démarrage des microservices métiers
 echo -e "${GREEN}🚀 Démarrage des microservices métiers...${RESET}"

@@ -1,0 +1,278 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.herve.intergiciel:RHManager >-------------------
+[INFO] Building RHManager 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.4:run (default-cli) > test-compile @ RHManager >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ RHManager ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ RHManager ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ RHManager ---
+[INFO] skip non existing resourceDirectory /Users/apple/Documents/uvpro/back/pro-mater1/RHManager/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ RHManager ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.4.4:run (default-cli) < test-compile @ RHManager <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.4:run (default-cli) @ RHManager ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-07-14T14:13:15.261+01:00  INFO 96591 --- [rh-service] [           main] c.h.i.RHManager.RhManagerApplication     : Starting RhManagerApplication using Java 23.0.1 with PID 96591 (/Users/apple/Documents/uvpro/back/pro-mater1/RHManager/target/classes started by apple in /Users/apple/Documents/uvpro/back/pro-mater1/RHManager)
+2025-07-14T14:13:15.277+01:00  INFO 96591 --- [rh-service] [           main] c.h.i.RHManager.RhManagerApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-07-14T14:13:15.397+01:00  INFO 96591 --- [rh-service] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-07-14T14:13:15.397+01:00  INFO 96591 --- [rh-service] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=rh-service, profiles=[default], label=null, version=null, state=null
+2025-07-14T14:13:17.634+01:00  INFO 96591 --- [rh-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-14T14:13:18.080+01:00  INFO 96591 --- [rh-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 432 ms. Found 1 JPA repository interface.
+2025-07-14T14:13:18.493+01:00  INFO 96591 --- [rh-service] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ede48393-30ec-3ec7-89ad-bdc1d5a29f2f
+2025-07-14T14:13:19.934+01:00  INFO 96591 --- [rh-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8001 (http)
+2025-07-14T14:13:19.989+01:00  INFO 96591 --- [rh-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-14T14:13:19.990+01:00  INFO 96591 --- [rh-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-07-14T14:13:20.129+01:00  INFO 96591 --- [rh-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-14T14:13:20.131+01:00  INFO 96591 --- [rh-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4730 ms
+2025-07-14T14:13:20.873+01:00  INFO 96591 --- [rh-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-14T14:13:20.946+01:00  INFO 96591 --- [rh-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-07-14T14:13:20.993+01:00  INFO 96591 --- [rh-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-14T14:13:21.432+01:00  INFO 96591 --- [rh-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-14T14:13:21.469+01:00  INFO 96591 --- [rh-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-14T14:13:22.138+01:00  INFO 96591 --- [rh-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78805df3
+2025-07-14T14:13:22.141+01:00  INFO 96591 --- [rh-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-14T14:13:22.174+01:00  WARN 96591 --- [rh-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-14T14:13:22.175+01:00  WARN 96591 --- [rh-service] [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-14T14:13:22.201+01:00  INFO 96591 --- [rh-service] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-14T14:13:23.335+01:00  INFO 96591 --- [rh-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-14T14:13:23.392+01:00  INFO 96591 --- [rh-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-14T14:13:23.806+01:00  WARN 96591 --- [rh-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-14T14:13:24.944+01:00  INFO 96591 --- [rh-service] [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-07-14T14:13:25.024+01:00  WARN 96591 --- [rh-service] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-14T14:13:25.064+01:00  INFO 96591 --- [rh-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-07-14T14:13:25.158+01:00  INFO 96591 --- [rh-service] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-07-14T14:13:25.186+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-07-14T14:13:25.190+01:00  INFO 96591 --- [rh-service] [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:13:25.198+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-07-14T14:13:25.199+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-07-14T14:13:25.199+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-07-14T14:13:25.199+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-07-14T14:13:25.199+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-07-14T14:13:25.199+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-07-14T14:13:25.199+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-07-14T14:13:25.502+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-07-14T14:13:25.504+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-07-14T14:13:25.506+01:00  INFO 96591 --- [rh-service] [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-14T14:13:25.508+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1752498805507 with initial instances count: 2
+2025-07-14T14:13:25.515+01:00  INFO 96591 --- [rh-service] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application RH-SERVICE with eureka with status UP
+2025-07-14T14:13:25.516+01:00  INFO 96591 --- [rh-service] [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1752498805516, current=UP, previous=STARTING]
+2025-07-14T14:13:25.517+01:00  INFO 96591 --- [rh-service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-SERVICE/192.168.81.203:rh-service:8001: registering service...
+2025-07-14T14:13:25.551+01:00  INFO 96591 --- [rh-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8001 (http) with context path '/'
+2025-07-14T14:13:25.553+01:00  INFO 96591 --- [rh-service] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8001
+2025-07-14T14:13:25.568+01:00  INFO 96591 --- [rh-service] [foReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RH-SERVICE/192.168.81.203:rh-service:8001 - registration status: 204
+2025-07-14T14:13:25.581+01:00  INFO 96591 --- [rh-service] [           main] c.h.i.RHManager.RhManagerApplication     : Started RhManagerApplication in 12.986 seconds (process running for 14.589)
+2025-07-14T14:15:31.259+01:00  INFO 96591 --- [rh-service] [nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-14T14:15:31.259+01:00  INFO 96591 --- [rh-service] [nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-14T14:15:31.262+01:00  INFO 96591 --- [rh-service] [nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: insert into employes (adresse,date_embauche,date_naissance,email,nom,prenom,sexe,telephone) values (?,?,?,?,?,?,?,?)
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T14:18:25.184+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+2025-07-14T14:23:25.169+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:27:52.076+01:00  WARN 96591 --- [rh-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s789ms), soft-evicting connections from pool.
+2025-07-14T14:28:24.942+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T14:33:24.931+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:38:24.920+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T14:43:24.936+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: insert into employes (adresse,date_embauche,date_naissance,email,nom,prenom,sexe,telephone) values (?,?,?,?,?,?,?,?)
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T14:48:24.925+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+2025-07-14T14:53:24.912+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T14:57:52.020+01:00  WARN 96591 --- [rh-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s829ms), soft-evicting connections from pool.
+2025-07-14T14:58:24.727+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:03:24.711+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T15:08:24.699+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: insert into employes (adresse,date_embauche,date_naissance,email,nom,prenom,sexe,telephone) values (?,?,?,?,?,?,?,?)
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T15:13:24.630+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+2025-07-14T15:18:24.616+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:23:24.603+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:28:24.949+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:33:24.960+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T15:38:24.974+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:43:25.194+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:48:25.207+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:53:25.223+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T15:58:25.335+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:03:25.350+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:08:25.362+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:13:25.392+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:18:25.406+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T16:23:25.419+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:28:25.376+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:33:25.384+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:38:25.394+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:43:25.382+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:48:25.388+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T16:53:25.395+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T16:57:53.099+01:00  WARN 96591 --- [rh-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s758ms), soft-evicting connections from pool.
+2025-07-14T16:58:25.155+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:03:25.148+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:08:25.142+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:13:25.102+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:18:25.095+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0 where e1_0.id=?
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T17:23:25.087+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:28:25.079+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:33:25.071+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:38:25.066+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:43:25.060+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:48:25.052+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:53:25.047+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T17:57:53.169+01:00  WARN 96591 --- [rh-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s842ms), soft-evicting connections from pool.
+2025-07-14T17:58:24.876+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:03:24.865+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:08:24.851+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:13:25.025+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:18:25.022+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:23:25.018+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:28:25.003+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:33:25.000+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:38:24.995+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:43:24.967+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:48:24.959+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-07-14T18:53:24.951+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+Hibernate: select e1_0.id,e1_0.adresse,e1_0.date_embauche,e1_0.date_naissance,e1_0.email,e1_0.nom,e1_0.prenom,e1_0.sexe,e1_0.telephone from employes e1_0
+2025-07-14T18:58:24.935+01:00  INFO 96591 --- [rh-service] [rap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

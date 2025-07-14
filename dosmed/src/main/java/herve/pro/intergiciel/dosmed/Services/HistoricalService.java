@@ -29,6 +29,7 @@ public class HistoricalService {
             historicalEntity.setMalEncours(historical.getMalEncours());
             historicalEntity.setDocuments(historical.getDocuments());
             historicalEntity.setPatient(historical.getPatient());
+            
             if (!patientServiceClient.patientExists(historical.getPatient())) {
                 throw new HistoricalNotFoundException("Patient non trouvé avec l'ID : " + historical.getPatient());
             } else {
